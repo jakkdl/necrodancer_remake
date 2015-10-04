@@ -291,8 +291,8 @@ def baseToPhasing(xmlfile):
     tree.write(xmlfile)
 
 
-fromxml = '/home/hatten/.data/Steam/steamapps/common/Crypt of the NecroDancer/data/necrodancer.xml'
-toxml = '/home/hatten/.data/Steam/steamapps/common/Crypt of the NecroDancer/mods/remake/necrodancer.xml'
+fromxml = 'original.xml'
+toxml = 'necrodancer.xml'
 
 
 rarities = {
