@@ -30,7 +30,10 @@ def adjustChances(xmlfile, rarities):
         slot = getProp(item, 'slot')
 
         if slot == "spell":
-            set_attributes(item, rarities['rare'])
+            if 'charm' in item.tag:
+                set_attributes(item, rarities['never'])
+            else:
+                set_attributes(item, rarities['rare'])
 
         elif slot == "ring":
             if     ('phasing' in item.tag or
@@ -113,7 +116,8 @@ def adjustChances(xmlfile, rarities):
         elif slot == 'feet':
             if 'speed' in item.tag:
                 set_attributes(item, rarities['never'])
-            set_attributes(item, rarities['normal'])
+            else:
+                set_attributes(item, rarities['normal'])
 
         elif slot == 'bomb':
             if '3' in item.tag:
@@ -221,11 +225,13 @@ def baseToPhasing(xmlfile):
             item.attrib['flyaway'] = item.attrib['flyaway'].replace(
                     'DAGGER OF PHASING', 'TITANIUM DAGGER')
             item.attrib['hint'] = item.attrib['hint'].replace(', 2 DMG','')
+            item.attrib['hint'] = item.attrib['hint'].replace('PHASING', 'TITANIUM')
             item.attrib['isPhasing'] = 'false'
         elif 'titanium_dagger' in item.tag:
             item.attrib['flyaway'] = item.attrib['flyaway'].replace(
                     'TITANIUM DAGGER', 'PHASING DAGGER')
             item.attrib['isPhasing'] = 'true'
+            item.attrib['isTitanium'] = 'false'
             item.attrib['hint'] = item.attrib['hint'].replace('2', 'PHASING')
 
         elif (getProp(item, 'slot') == "weapon" and
