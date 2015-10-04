@@ -1,0 +1,1925 @@
+<necrodancer>
+	<items>
+		<addchest_black diamondCost="4" flyaway="|314|+1 BLACK CHEST PER RUN|" hint="|314|+1 BLACK CHEST PER RUN|" levelEditor="False">addchest_black.png</addchest_black>
+		<addchest_red diamondCost="1" flyaway="|315|+1 RED CHEST PER RUN|" hint="|315|+1 RED CHEST PER RUN|" levelEditor="False">addchest_red.png</addchest_red>
+		<addchest_white diamondCost="2" flyaway="|316|+1 PURPLE CHEST PER RUN|" hint="|316|+1 PURPLE CHEST PER RUN|" levelEditor="False">addchest_white.png</addchest_white>
+		<armor_chainmail chestChance="100" coinCost="60" data="2" diamondCost="2" diamondDealable="2" flyaway="|317|CHAINMAIL|" hint="|508|+1 DEFENSE|" isArmor="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="body" slotPriority="1" urnChance="0">armor_chainmail.png</armor_chainmail>
+		<armor_heavyplate chestChance="40" coinCost="400" data="4" diamondCost="7" diamondDealable="6" flyaway="|318|HEAVY PLATE|" hint="|509|+2 DEFENSE, HEAVY|" isArmor="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="body" slotPriority="1" urnChance="100">armor_heavyplate.png</armor_heavyplate>
+		<armor_leather chestChance="50" coinCost="20" data="1" diamondDealable="1" flyaway="|319|LEATHER ARMOR|" hint="|510|+0.5 DEFENSE|" isArmor="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="body" slotPriority="1" unlocked="true" urnChance="0">armor_leather.png</armor_leather>
+		<armor_platemail chestChance="100" coinCost="200" data="3" diamondCost="3" diamondDealable="4" flyaway="|320|PLATE ARMOR|" hint="|511|+1.5 DEFENSE|" isArmor="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="body" slotPriority="1" urnChance="0">armor_platemail.png</armor_platemail>
+        <armor_platemail_dorian chestChance="0" coinCost="200" data="3" flyaway="|320|PLATE ARMOR|" hint="|511|+1.5 DEFENSE|" imageH="26" isArmor="True" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="body" slotPriority="1" urnChance="0">armor_platemail_dorian.png</armor_platemail_dorian>
+		<armor_gi chestChance="100" coinCost="40" data="-1" diamondCost="3" diamondDealable="2" flyaway="|321|KARATE GI|" hint="|513|TAKE AND DEAL DOUBLE DAMAGE|" isArmor="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="body" slotPriority="1" urnChance="0">armor_gi.png</armor_gi>
+        <armor_glass chestChance="100" coinCost="50" data="-1" diamondCost="4" diamondDealable="3" flyaway="|322|GLASS ARMOR|" hint="|514|PREVENTS DAMAGE, THEN SHATTERS|" isArmor="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="body" slotPriority="1" urnChance="0">armor_glass.png</armor_glass>
+        <armor_obsidian chestChance="100" coinCost="100" data="-1" diamondCost="3" diamondDealable="3" flyaway="|323|OBSIDIAN ARMOR|" hint="|515|MULTIPLIER-BASED DEFENSE|" imageH="26" imageW="26" isArmor="True" lockedChestChance="100" lockedShopChance="100" numFrames="3" shopChance="100" slot="body" slotPriority="1" urnChance="0">armor_obsidian.png</armor_obsidian>
+		<coins_x15 diamondCost="5" flyaway="|324|COIN MULTIPLIER +0.5|" hint="|324|COIN MULTIPLIER +0.5|" levelEditor="False">coins_x15.png</coins_x15>
+		<coins_x2 diamondCost="8" flyaway="|325|COIN MULTIPLIER +1|" hint="|325|COIN MULTIPLIER +1|" levelEditor="False">coins_x2.png</coins_x2>
+		<feet_ballet_shoes chestChance="100" coinCost="25" diamondDealable="1" flyaway="|326|BALLET SHOES|" hint="|516|STAND STILL, KEEP MULTIPLIER|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" unlocked="true" urnChance="0">feet_ballet_shoes.png</feet_ballet_shoes>
+		<feet_boots_speed chestChance="100" coinCost="200" flyaway="|327|BOOTS OF SPEED|" hint="|517|DOUBLE TIME|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" urnChance="0">feet_boots_speed.png</feet_boots_speed>
+		<feet_boots_winged chestChance="100" coinCost="50" diamondDealable="2" flyaway="|328|WINGED BOOTS|" hint="|518|LEVITATION|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" unlocked="true" urnChance="0">feet_boots_winged.png</feet_boots_winged>
+        <feet_boots_explorers chestChance="100" coinCost="15" diamondDealable="1" flyaway="|329|EXPLORERS BOOTS|" hint="|519|HELPS WITH SOME TERRAIN|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" unlocked="true" urnChance="0">feet_boots_explorers.png</feet_boots_explorers>
+        <feet_boots_lead chestChance="100" coinCost="15" diamondDealable="1" flyaway="|330|LEAD BOOTS|" hint="|520|HELPS WITH TRAPS AND ICE|" imageH="25" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" unlocked="true" urnChance="0">feet_boots_lead.png</feet_boots_lead>
+        <feet_boots_leaping chestChance="100" coinCost="5" diamondDealable="2" flyaway="|331|BOOTS OF LEAPING|" hint="|521|LONG JUMP|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" unlocked="true" urnChance="0">feet_boots_leaping.png</feet_boots_leaping>
+        <feet_boots_lunging chestChance="100" coinCost="10" diamondDealable="2" flyaway="|332|BOOTS OF LUNGING|" hint="|522|LONG JUMP ATTACK|" imageH="24" imageW="15" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" unlocked="true" urnChance="0">feet_boots_lunging.png</feet_boots_lunging>
+        <feet_boots_pain chestChance="100" coinCost="50" diamondCost="3" diamondDealable="2" flyaway="|333|BOOTS OF PAIN|" hint="|523|DO DAMAGE AS YOU WALK|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" urnChance="0">feet_boots_pain.png</feet_boots_pain>
+        <feet_greaves chestChance="100" coinCost="35" diamondCost="4" diamondDealable="2" flyaway="|334|HARGREAVES|" hint="|510|+0.5 DEFENSE|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" urnChance="0">feet_greaves.png</feet_greaves>
+		<feet_boots_strength chestChance="100" coinCost="70" diamondDealable="2" flyaway="|335|BOOTS OF STRENGTH|" hint="|524|+1 DAMAGE|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="feet" unlocked="true" urnChance="0">feet_boots_strength.png</feet_boots_strength>
+		<food_1 chestChance="50" coinCost="10" data="2" diamondDealable="1" flyaway="|336|APPLE|" hint="|525|RESTORE 1 HEALTH|" isFood="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="action" unlocked="true" urnChance="0">food_1.png</food_1>
+		<food_2 chestChance="50" coinCost="25" data="4" diamondCost="1" diamondDealable="2" flyaway="|337|CHEESE|" hint="|526|RESTORE 2 HEALTH|" isFood="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="action" urnChance="0">food_2.png</food_2>
+		<food_3 chestChance="100" coinCost="40" data="6" diamondCost="2" diamondDealable="2" flyaway="|338|DRUMSTICK|" hint="|527|RESTORE 3 HEALTH|" isFood="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" urnChance="0">food_3.png</food_3>
+		<food_4 chestChance="40" coinCost="65" data="8" diamondCost="6" diamondDealable="3" flyaway="|339|HAM|" hint="|528|RESTORE 4 HEALTH|" isFood="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="action" urnChance="100">food_4.png</food_4>
+		<holy_water chestChance="100" coinCost="100" diamondCost="5" diamondDealable="4" flyaway="|340|HOLY WATER|" hint="|529|USE NEAR ENEMIES|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" urnChance="0">holy_water.png</holy_water>
+		<lord_crown chestChance="0" coinCost="100" diamondDealable="1" flyaway="|341|LORD CROWN|" hint="|530|GIGANTISM|" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="action" urnChance="0">lord_crown.png</lord_crown>
+        <bomb chestChance="50" coinCost="20" diamondDealable="1" flyaway="|342|BOMB|" hint="" lockedChestChance="50" lockedShopChance="0" numFrames="5" shopChance="5000" slot="bomb" unlocked="true" urnChance="0">bomb.png</bomb>
+        <bomb_3 chestChance="100" coinCost="60" diamondDealable="2" flyaway="|343|3 BOMBS|" hint="" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="bomb" unlocked="true" urnChance="0">bomb_3.png</bomb_3>
+		<war_drum chestChance="100" coinCost="5" diamondCost="3" diamondDealable="2" flyaway="|344|WAR DRUM|" hint="|531|STAND STILL, INCREASE DAMAGE|" imageH="28" imageW="26" lockedChestChance="100" lockedShopChance="100" numFrames="3" shopChance="100" slot="action" urnChance="0">war_drum.png</war_drum>
+		<blood_drum chestChance="100" coinCost="25" diamondCost="3" diamondDealable="2" flyaway="|345|BLOOD DRUM|" hint="|532|TAKES HEALTH, INCREASES DAMAGE|" imageH="28" imageW="26" lockedChestChance="100" lockedShopChance="100" numFrames="2" shopChance="100" slot="action" urnChance="0">blood_drum.png</blood_drum>
+		<double_heart_transplant chestChance="100" diamondDealable="3" flyaway="|346|DOUBLE HEART TRANSPLANT|" hint="|533|PACEMAKER|" levelEditor="False" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" urnChance="0">double_heart_transplant.png</double_heart_transplant>
+		<heart_transplant chestChance="100" coinCost="50" diamondCost="3" diamondDealable="2" flyaway="|347|HEART TRANSPLANT|" hint="|533|PACEMAKER|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" urnChance="0">heart_transplant.png</heart_transplant>
+		<head_crown_of_thorns chestChance="100" coinCost="30" diamondCost="3" diamondDealable="2" flyaway="|348|CROWN OF THORNS|" hint="|534|10 KILLS = HEAL|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" urnChance="0">head_crown_of_thorns.png</head_crown_of_thorns>
+        <head_crown_of_greed chestChance="0" coinCost="200" flyaway="|349|CROWN OF GREED|" hint="|535|DOUBLE COINS + LEAK COINS|" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="head" urnChance="0">head_crown_of_greed.png</head_crown_of_greed>
+        <head_crown_of_teleportation chestChance="100" coinCost="20" diamondDealable="3" flyaway="|350|CROWN OF TELEPORTATION|" hint="|536|TELEPORT ON HIT|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" unlocked="true" urnChance="0">head_crown_of_teleportation.png</head_crown_of_teleportation>
+        <head_circlet_telepathy chestChance="100" coinCost="20" diamondDealable="2" flyaway="|351|CIRCLET OF TELEPATHY|" hint="|537|SEE ALL ENEMIES|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" unlocked="true" urnChance="0">head_circlet_telepathy.png</head_circlet_telepathy>
+        <head_miners_cap chestChance="100" coinCost="40" diamondDealable="1" flyaway="|352|MINER'S CAP|" hint="|538|MOVE + DIG|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" unlocked="true" urnChance="0">head_miners_cap.png</head_miners_cap>
+        <head_monocle chestChance="100" coinCost="35" diamondDealable="1" flyaway="|353|MONOCLE|" hint="|539|SEE ALL ITEMS|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" unlocked="true" urnChance="0">head_monocle.png</head_monocle>
+		<head_ninja_mask chestChance="0" coinCost="100" flyaway="|354|NINJA MASK|" hint="|540|STEALTHY|" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="head" unlocked="true" urnChance="0">head_ninja_mask.png</head_ninja_mask>
+        <head_helm chestChance="100" coinCost="40" diamondCost="4" diamondDealable="2" flyaway="|355|HELM|" hint="|510|+0.5 DEFENSE|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" urnChance="0">head_helmet.png</head_helm>
+		<head_glass_jaw chestChance="100" coinCost="60" diamondCost="3" diamondDealable="2" flyaway="|356|GLASS JAW|" hint="|541|DOUBLE ALL DMG, FRAILTY|" imageH="14" imageW="20" isGlass="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" urnChance="0">head_glass_jaw.png</head_glass_jaw>
+		<head_blast_helm chestChance="100" coinCost="60" diamondCost="5" diamondDealable="2" flyaway="|357|BLAST HELM|" hint="|542|BOMB IMMUNITY, +3 BOMBS|" imageH="21" imageW="22" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" urnChance="0">head_blast_helm.png</head_blast_helm>
+		<head_sunglasses chestChance="100" coinCost="40" diamondCost="3" diamondDealable="2" flyaway="|358|SUNGLASSES|" hint="|543|+1 DMG, STRANGE VISION|" imageW="30" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="head" urnChance="0">head_sunglasses.png</head_sunglasses>
+		<hud_backpack chestChance="50" coinCost="5" diamondDealable="1" flyaway="|359|BACKPACK|" hint="|544|+1 STORAGE|" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="hud" unlocked="true" urnChance="0">hud_backpack.png</hud_backpack>
+        <holster chestChance="50" coinCost="10" diamondCost="1" diamondDealable="1" flyaway="|360|HOLSTER|" hint="|545|HOLD 2ND WEAPON|" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="hud" urnChance="0">holster.png</holster>
+        <bag_holding chestChance="40" coinCost="10" diamondCost="3" diamondDealable="2" flyaway="|361|PACK OF HOLDING|" hint="|546|INFINITE STORAGE|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="hud" urnChance="100">bag_holding.png</bag_holding>
+        <misc_compass chestChance="40" coinCost="6" diamondDealable="1" flyaway="|362|COMPASS|" hint="|547|ARROW SHOWS EXIT|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" unlocked="true" urnChance="100">misc_compass.png</misc_compass>
+		<misc_coupon chestChance="40" coinCost="100" diamondDealable="3" flyaway="|363|COUPON|" hint="|548|SHOPPING SPREE|" imageH="21" imageW="26" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" unlocked="true" urnChance="100">misc_coupon.png</misc_coupon>
+		<misc_golden_key chestChance="0" coinCost="10" flyaway="|364|GOLDEN KEY|" hint="|549|OPEN CAGE|" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="misc" urnChance="0">misc_key_golden.png</misc_golden_key>
+		<misc_golden_key2 chestChance="0" coinCost="250" flyaway="|364|GOLDEN KEY|" hint="|550|OPEN CAGE WITH GOLDEN LOCK|" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="misc" urnChance="0">misc_key_golden.png</misc_golden_key2>
+		<misc_golden_key3 chestChance="0" coinCost="400" flyaway="|364|GOLDEN KEY|" hint="|549|OPEN CAGE|" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="misc" urnChance="0">misc_key_golden.png</misc_golden_key3>
+		<misc_glass_key chestChance="0" coinCost="10" flyaway="|365|GLASS KEY|" hint="|551|OPEN CAGE WITH GLASS LOCK|" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="misc" urnChance="0">misc_key_glass.png</misc_glass_key>
+		<misc_heart_container chestChance="100" coinCost="50" consumable="True" flyaway="|366|HEART CONTAINER|" hint="|552|+1 HEART CONTAINER|" lockedChestChance="100" lockedShopChance="100" shopChance="100" unlocked="true" urnChance="0">misc_heart_container.png</misc_heart_container>
+		<misc_heart_container2 chestChance="40" coinCost="200" consumable="True" flyaway="|367|DOUBLE HEART CONTAINER|" hint="|553|+2 HEART CONTAINER|" lockedChestChance="40" lockedShopChance="40" shopChance="40" unlocked="true" urnChance="100">misc_heart_container2.png</misc_heart_container2>
+		<misc_heart_container_empty chestChance="50" coinCost="25" consumable="True" flyaway="|368|EMPTY HEART CONTAINER|" hint="|554|+1 EMPTY HEART CONTAINER|" lockedChestChance="50" lockedShopChance="0" shopChance="5000" unlocked="true" urnChance="0">misc_heart_container_empty.png</misc_heart_container_empty>
+		<misc_heart_container_empty2 chestChance="100" coinCost="100" consumable="True" flyaway="|369|EMPTY DOUBLE HEART CONTAINER|" hint="|555|+2 EMPTY HEART CONTAINER|" lockedChestChance="100" lockedShopChance="100" shopChance="100" unlocked="true" urnChance="0">misc_heart_container_empty2.png</misc_heart_container_empty2>
+		<misc_key chestChance="0" flyaway="|370|KEY|" hint="|556|OPEN LOCKS|" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="misc" slotPriority="5" urnChance="0">misc_key.png</misc_key>
+		<misc_magnet chestChance="0" coinCost="0" flyaway="|371|GOLD MAGNET|" hint="|557|MAGNETISM|" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="misc" slotPriority="3" urnChance="0">misc_magnet.png</misc_magnet>
+		<misc_map chestChance="40" coinCost="25" diamondDealable="2" flyaway="|372|MAP|" hint="|558|REVEAL DUNGEON MINIMAP|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" slotPriority="1" unlocked="true" urnChance="100">misc_map.png</misc_map>
+		<misc_potion chestChance="0" coinCost="500" diamondDealable="4" flyaway="|373|POTION|" hint="|559|SAVES YOUR LIFE|" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="misc" slotPriority="4" urnChance="0">misc_potion.png</misc_potion>
+		<charm_frost chestChance="40" coinCost="150" diamondDealable="3" flyaway="|374|FROST CHARM|" hint="|560|AUTOMATIC FREEZE|" imageH="25" imageW="21" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" unlocked="true" urnChance="100">charm_frost.png</charm_frost>
+		<charm_gluttony chestChance="40" coinCost="250" diamondDealable="5" flyaway="|375|GLUTTONY CHARM|" hint="|561|REWARDS OVEREATING, ONCE|" imageH="33" imageW="25" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" unlocked="true" urnChance="100" yOff="-9">charm_gluttony.png</charm_gluttony>
+		<charm_luck coinCost="50" flyaway="|376|LUCKY CHARM|" hint="|562|BAT IMMUNITY|" imageH="27" imageW="25" slot="misc" unlocked="true">charm_lucky.png</charm_luck>
+		<charm_nazar chestChance="40" coinCost="75" diamondDealable="2" flyaway="|377|NAZAR CHARM|" hint="|563|WARDS OFF SPIRITS|" imageH="29" imageW="19" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" unlocked="true" urnChance="100" yOff="-5">charm_nazar.png</charm_nazar>
+		<charm_protection chestChance="40" coinCost="50" diamondDealable="2" flyaway="|378|PROTECTION CHARM|" hint="|510|+0.5 DEFENSE|" imageH="27" imageW="17" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" unlocked="true" urnChance="100" yOff="-3">charm_protection.png</charm_protection>
+		<charm_risk chestChance="40" coinCost="100" diamondDealable="3" flyaway="|379|RISK CHARM|" hint="|564|+2 DMG AT LOW HEALTH|" imageH="27" imageW="19" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" unlocked="true" urnChance="100" yOff="-3">charm_risk.png</charm_risk>
+		<charm_strength chestChance="40" coinCost="150" diamondDealable="3" flyaway="|380|STRENGTH CHARM|" hint="|524|+1 DAMAGE|" imageH="26" imageW="20" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="misc" unlocked="true" urnChance="100">charm_strength.png</charm_strength>
+		<perm_heart2 diamondCost="1" flyaway="|381|HEART CONTAINER|" hint="|552|+1 HEART CONTAINER|" levelEditor="False">perm_heart2.png</perm_heart2>
+		<perm_heart3 diamondCost="1" flyaway="|381|HEART CONTAINER|" hint="|552|+1 HEART CONTAINER|" levelEditor="False">perm_heart3.png</perm_heart3>
+		<perm_heart4 diamondCost="1" flyaway="|381|HEART CONTAINER|" hint="|552|+1 HEART CONTAINER|" levelEditor="False">perm_heart4.png</perm_heart4>
+		<perm_heart5 diamondCost="2" flyaway="|381|HEART CONTAINER|" hint="|552|+1 HEART CONTAINER|" levelEditor="False">perm_heart5.png</perm_heart5>
+		<perm_heart6 diamondCost="12" flyaway="|381|HEART CONTAINER|" hint="|552|+1 HEART CONTAINER|" levelEditor="False">perm_heart5.png</perm_heart6>
+		<resource_coin0 data="0" isCoin="True" levelEditor="False">resource_coin1.png</resource_coin0>
+		<resource_coin1 data="1" isCoin="True" levelEditor="False">resource_coin1.png</resource_coin1>
+		<resource_coin2 data="2" isCoin="True" levelEditor="False">resource_coin2.png</resource_coin2>
+		<resource_coin3 data="3" isCoin="True" levelEditor="False">resource_coin3.png</resource_coin3>
+		<resource_coin4 data="4" isCoin="True" levelEditor="False">resource_coin4.png</resource_coin4>
+		<resource_coin5 data="5" isCoin="True" levelEditor="False">resource_coin5.png</resource_coin5>
+		<resource_coin6 data="6" isCoin="True" levelEditor="False">resource_coin6.png</resource_coin6>
+		<resource_coin7 data="7" isCoin="True" levelEditor="False">resource_coin7.png</resource_coin7>
+		<resource_coin8 data="8" isCoin="True" levelEditor="False">resource_coin8.png</resource_coin8>
+		<resource_coin9 data="9" isCoin="True" levelEditor="False">resource_coin9.png</resource_coin9>
+		<resource_coin10 data="10" isCoin="True" levelEditor="False">resource_coin10.png</resource_coin10>
+		<resource_coin50 bouncer="False" data="50" flyaway="|382|+50 COINS|" imageH="19" imageW="34">resource_hoard.png</resource_coin50>
+		<resource_coin100 bouncer="False" data="100" flyaway="|383|+100 COINS|" imageH="19" imageW="34">resource_hoard.png</resource_coin100>
+		<resource_coin150 bouncer="False" data="150" flyaway="|384|+150 COINS|" imageH="19" imageW="34">resource_hoard.png</resource_coin150>
+		<resource_diamond data="1" flyaway="|385|DIAMOND|" isDiamond="True" levelEditor="False">resource_diamond.png</resource_diamond>
+		<resource_diamond2 data="2" flyaway="|386|2 DIAMONDS|" isDiamond="True" levelEditor="False">resource_diamond2.png</resource_diamond2>
+		<resource_diamond3 data="3" flyaway="|387|3 DIAMONDS|" isDiamond="True" levelEditor="False">resource_diamond3.png</resource_diamond3>
+		<resource_diamond4 data="4" flyaway="|388|4 DIAMONDS|" isDiamond="True" levelEditor="False">resource_diamond4.png</resource_diamond4>
+		<resource_hoard1 bouncer="False" flyaway="|389|+5 DIAMONDS|" imageH="19" imageW="34" levelEditor="False">resource_hoard.png</resource_hoard1>
+		<resource_hoard2 bouncer="False" flyaway="|390|+10 DIAMONDS|" imageH="19" imageW="34" levelEditor="False">resource_hoard.png</resource_hoard2>
+		<resource_hoard3 bouncer="False" flyaway="|391|+15 DIAMONDS|" imageH="19" imageW="34" levelEditor="False">resource_hoard.png</resource_hoard3>
+		<resource_hoard4 bouncer="False" flyaway="|392|+20 DIAMONDS|" imageH="19" imageW="34" levelEditor="False">resource_hoard.png</resource_hoard4>
+		<resource_hoard_gold_small bouncer="False" data="25" flyaway="|313|COINS|" imageH="24" imageW="24" isCoin="True" levelEditor="False">resource_hoard_gold_small.png</resource_hoard_gold_small>
+		<resource_hoard_gold bouncer="False" data="50" flyaway="|313|COINS|" imageH="24" imageW="24" isCoin="True" levelEditor="False">resource_hoard_gold.png</resource_hoard_gold>
+        <ring_courage chestChance="40" coinCost="150" diamondCost="1" diamondDealable="3" flyaway="|393|RING OF COURAGE|" hint="|565|+1 DMG, KILL DASH|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="ring" urnChance="100">ring_courage.png</ring_courage>
+        <ring_war chestChance="40" coinCost="60" diamondCost="6" diamondDealable="3" flyaway="|394|RING OF WAR|" hint="|566|+1 DAMAGE, MORE ENEMIES|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="ring" urnChance="100">ring_war.png</ring_war>
+        <ring_peace chestChance="40" coinCost="80" diamondCost="4" diamondDealable="3" flyaway="|395|RING OF PEACE|" hint="|567|+1 HEART, FEWER ENEMIES|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="ring" urnChance="100">ring_peace.png</ring_peace>
+        <ring_mana chestChance="40" coinCost="80" diamondCost="3" diamondDealable="3" flyaway="|396|RING OF MANA|" hint="|568|MORE POWERFUL SPELLS|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="ring" urnChance="100">ring_mana.png</ring_mana>
+        <ring_shadows chestChance="100" coinCost="60" diamondCost="1" diamondDealable="2" flyaway="|397|RING OF SHADOWS|" hint="???" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="ring" urnChance="0">ring_shadows.png</ring_shadows>
+        <ring_might chestChance="100" coinCost="60" diamondCost="3" diamondDealable="4" flyaway="|398|RING OF MIGHT|" hint="|524|+1 DAMAGE|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="ring" urnChance="0">ring_might.png</ring_might>
+        <ring_charisma chestChance="100" coinCost="40" diamondDealable="2" flyaway="|399|RING OF CHARISMA|" hint="|569|CHEAPER SHOPS|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="ring" unlocked="true" urnChance="0">ring_charisma.png</ring_charisma>
+        <ring_luck chestChance="6" coinCost="40" diamondCost="1" diamondDealable="2" flyaway="|400|RING OF LUCK|" hint="|570|BAT IMMUNITY|" shopChance="20" slot="ring">ring_luck.png</ring_luck>
+        <ring_gold chestChance="100" coinCost="30" diamondCost="2" diamondDealable="2" flyaway="|401|RING OF GOLD|" hint="|571|MORE GOLD, AUTO GOLD PICKUP|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="ring" urnChance="0">ring_gold.png</ring_gold>
+		<ring_phasing chestChance="0" coinCost="5" diamondCost="1" diamondDealable="5" flyaway="|402|RING OF PHASING|" hint="???" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="ring" urnChance="0">ring_phasing.png</ring_phasing>
+		<ring_regeneration chestChance="40" coinCost="60" diamondCost="5" diamondDealable="4" flyaway="|403|RING OF REGENERATION|" hint="|572|HEALS EACH LEVEL|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="ring" urnChance="100">ring_regeneration.png</ring_regeneration>
+		<ring_protection chestChance="100" coinCost="40" diamondCost="4" diamondDealable="2" flyaway="|404|RING OF PROTECTION|" hint="|510|+0.5 DEFENSE|" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="ring" urnChance="0">ring_protection.png</ring_protection>
+		<ring_shielding chestChance="40" coinCost="40" diamondCost="5" diamondDealable="3" flyaway="|405|RING OF SHIELDING|" hint="|573|AUTOMATIC SHIELD|" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="ring" urnChance="100">ring_shielding.png</ring_shielding>
+		<ring_becoming chestChance="100" coinCost="100" diamondCost="5" diamondDealable="5" flyaway="|406|RING OF BECOMING|" hint="???" imageH="19" imageW="22" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="ring" urnChance="0">ring_becoming.png</ring_becoming>
+		<ring_wonder chestChance="0" coinCost="200" flyaway="|407|RING OF WONDER|" hint="|574|+ ALL|" imageH="21" imageW="22" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="ring" urnChance="0">ring_wonder.png</ring_wonder>
+		<scroll_earthquake chestChance="100" coinCost="20" diamondCost="3" diamondDealable="1" flyaway="|408|EARTHQUAKE SCROLL|" hint="|575|DAMAGE NON-FLYING ENEMIES|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_earthquake" urnChance="0">scroll_brown.png</scroll_earthquake>
+		<scroll_fear chestChance="100" coinCost="1" diamondCost="1" diamondDealable="1" flyaway="|409|FEAR SCROLL|" hint="|576|SCARE ENEMIES AWAY|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_fear" urnChance="0">scroll_black.png</scroll_fear>
+		<scroll_fireball chestChance="100" coinCost="5" diamondDealable="1" flyaway="|410|FIREBALL SCROLL|" hint="|577|HORIZONTAL FIRE BLAST|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_fireball" unlocked="true" urnChance="0">scroll_red.png</scroll_fireball>
+		<scroll_freeze_enemies chestChance="100" coinCost="10" diamondCost="1" diamondDealable="1" flyaway="|411|FREEZE ENEMIES SCROLL|" hint="|578|FREEZE ENEMIES|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_freeze_enemies" unlocked="true" urnChance="0">scroll_white.png</scroll_freeze_enemies>
+		<scroll_gigantism chestChance="100" coinCost="20" diamondDealable="1" flyaway="|412|GIGANTISM SCROLL|" hint="|530|GIGANTISM|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_gigantism" urnChance="0">scroll_purple.png</scroll_gigantism>
+		<scroll_riches chestChance="100" coinCost="50" diamondCost="1" diamondDealable="1" flyaway="|413|RICHES SCROLL|" hint="|579|RICHES|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_riches" urnChance="0">scroll_yellow.png</scroll_riches>
+		<scroll_shield chestChance="100" coinCost="25" diamondCost="1" diamondDealable="1" flyaway="|414|SHIELD SCROLL|" hint="|580|TEMPORARY SHIELD|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_shield" unlocked="true" urnChance="0">scroll_magenta.png</scroll_shield>
+		<scroll_enchant_weapon chestChance="100" coinCost="40" diamondCost="2" diamondDealable="1" flyaway="|415|ENCHANT WEAPON SCROLL|" hint="|581|ENCHANT WEAPON|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_enchant_weapon" urnChance="0">scroll_orange.png</scroll_enchant_weapon>
+		<scroll_need chestChance="100" coinCost="50" diamondCost="4" diamondDealable="2" flyaway="|416|SCROLL OF NEED|" hint="|582|GIVES WHAT YOU NEED|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_need" urnChance="0">scroll_green.png</scroll_need>
+		<scroll_transmute chestChance="100" coinCost="50" diamondCost="3" diamondDealable="1" flyaway="|417|TRANSMUTE SCROLL|" hint="|583|TRANSFORMS ALL NON-EQUIPPED ITEMS|" isScroll="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="action" spell="spell_transmute" urnChance="0">scroll_transmute.png</scroll_transmute>
+		<shovel_crystal chestChance="0" coinCost="250" diamondDealable="5" flyaway="|418|CRYSTAL SHOVEL|" hint="|584|+2 DIG|" isShovel="True" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="shovel" slotPriority="4" urnChance="100">shovel_crystal.png</shovel_crystal>
+		<shovel_titanium chestChance="100" coinCost="40" diamondDealable="3" flyaway="|419|TITANIUM SHOVEL|" hint="|585|+1 DIG|" isShovel="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="shovel" slotPriority="3" unlocked="true" urnChance="0">shovel_titanium.png</shovel_titanium>
+		<shovel_blood chestChance="100" coinCost="80" diamondCost="3" diamondDealable="3" flyaway="|420|BLOOD SHOVEL|" hint="|586|DIG ANYTHING, BUT TAKE DAMAGE|" isShovel="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="shovel" slotPriority="3" urnChance="0">shovel_blood.png</shovel_blood>
+        <shovel_obsidian chestChance="100" coinCost="60" diamondCost="4" diamondDealable="4" flyaway="|421|OBSIDIAN SHOVEL|" hint="|587|MULTIPLIER-BASED DIG|" imageH="26" imageW="26" isShovel="True" lockedChestChance="100" lockedShopChance="100" numFrames="3" shopChance="100" slot="shovel" slotPriority="3" urnChance="0">shovel_obsidian.png</shovel_obsidian>
+        <shovel_glass chestChance="100" coinCost="20" diamondCost="4" diamondDealable="4" flyaway="|422|GLASS SHOVEL|" hint="|588|+2 DIG, BREAKABLE|" isShovel="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="shovel" slotPriority="3" urnChance="0">shovel_glass.png</shovel_glass>
+		<shovel_shard chestChance="0" flyaway="|423|GLASS SHARD|" hint="|423|GLASS SHARD|" isShovel="True" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="shovel" slotPriority="1" urnChance="0">shovel_shard.png</shovel_shard>
+		<shovel_basic chestChance="100" flyaway="|424|SHOVEL|" hint="" isShovel="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="shovel" slotPriority="2" urnChance="0">shovel_basic.png</shovel_basic>
+		<pickaxe chestChance="100" coinCost="50" diamondCost="3" diamondDealable="2" flyaway="|425|PICKAXE|" hint="|589|SLOW, STRONG DIG|" isShovel="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="shovel" slotPriority="3" urnChance="0">pickaxe.png</pickaxe>
+        <spell_fireball chestChance="40" coinCost="50" cooldown="10" diamondCost="1" diamondDealable="4" flyaway="|426|FIREBALL SPELL|" hint="|590|HORIZONTAL FIRE BLAST|" isSpell="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="spell" unlocked="true" urnChance="100">spell_fireball.png</spell_fireball>
+		<spell_freeze_enemies chestChance="40" coinCost="125" cooldown="15" diamondCost="3" diamondDealable="5" flyaway="|427|FREEZE ENEMIES SPELL|" hint="|591|FREEZE ENEMIES|" imageH="27" isSpell="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="spell" urnChance="100">spell_freeze_enemies.png</spell_freeze_enemies>
+		<spell_heal chestChance="40" coinCost="150" cooldown="15" diamondCost="5" diamondDealable="6" flyaway="|428|HEAL SPELL|" hint="|592|RESTORE 0.5 HEALTH|" imageW="25" isSpell="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="spell" urnChance="100">spell_heal.png</spell_heal>
+		<spell_bomb chestChance="40" coinCost="150" cooldown="25" diamondCost="6" diamondDealable="3" flyaway="|429|BOMB SPELL|" hint="|593|BOMB SPELL|" imageW="26" isSpell="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="spell" urnChance="100">spell_bomb.png</spell_bomb>
+		<spell_shield chestChance="40" coinCost="100" cooldown="20" diamondCost="6" diamondDealable="4" flyaway="|430|SHIELD SPELL|" hint="|594|TEMPORARY SHIELD|" isSpell="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="spell" urnChance="100">spell_shield.png</spell_shield>
+		<spell_transmute chestChance="40" coinCost="150" cooldown="20" diamondCost="6" diamondDealable="3" flyaway="|431|TRANSMUTE SPELL|" hint="|595|TRANSFORM NEARBY ITEMS|" imageH="26" imageW="27" isSpell="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="spell" urnChance="100">spell_transmute.png</spell_transmute>
+		<spell_charm chestChance="40" coinCost="100" cooldown="10" flyaway="|432|CHARM SPELL|" hint="|596|CHARM NEARBY ENEMIES|" imageH="26" imageW="27" isSpell="True" levelEditor="False" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="spell" urnChance="100">spell_charm.png</spell_charm>
+		<torch_1 chestChance="50" coinCost="3" data="1" diamondDealable="1" flyaway="|433|TORCH|" hint="|597|+1 VISION RADIUS|" isTorch="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="torch" slotPriority="0" unlocked="true" urnChance="0">torch_1.png</torch_1>
+		<torch_2 chestChance="100" coinCost="15" data="2" diamondCost="1" diamondDealable="2" flyaway="|434|BRIGHT TORCH|" hint="|598|+2 VISION RADIUS|" isTorch="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="torch" slotPriority="0" urnChance="0">torch_2.png</torch_2>
+		<torch_3 chestChance="40" coinCost="40" data="3" diamondCost="5" diamondDealable="3" flyaway="|435|LUMINOUS TORCH|" hint="|599|+3 VISION RADIUS|" isTorch="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="torch" slotPriority="0" urnChance="100">torch_3.png</torch_3>
+		<torch_foresight chestChance="100" coinCost="20" data="1" diamondCost="5" diamondDealable="4" flyaway="|436|TORCH OF FORESIGHT|" hint="|600|+1 VISION + TRAPSIGHT|" isTorch="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="torch" slotPriority="0" urnChance="0">torch_foresight.png</torch_foresight>
+		<torch_glass chestChance="100" coinCost="30" data="3" diamondCost="6" diamondDealable="3" flyaway="|437|GLASS TORCH|" hint="|601|MAGIC VISION, BREAKABLE|" imageH="27" imageW="24" isGlass="True" isTorch="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="torch" slotPriority="0" urnChance="0">torch_glass.png</torch_glass>
+		<torch_infernal chestChance="100" coinCost="30" data="1" diamondCost="5" diamondDealable="3" flyaway="|438|INFERNAL TORCH|" hint="|602|CONSUMES TORCHES ON WALLS|" isTorch="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="torch" slotPriority="0" urnChance="0">torch_infernal.png</torch_infernal>
+		<torch_obsidian chestChance="100" coinCost="20" data="1" diamondCost="3" diamondDealable="3" flyaway="|439|OBSIDIAN TORCH|" hint="|603|MULTIPLIER-BASED LIGHT|" imageH="27" imageW="24" isTorch="True" lockedChestChance="100" lockedShopChance="100" numFrames="3" shopChance="100" slot="torch" slotPriority="0" urnChance="0">torch_obsidian.png</torch_obsidian>
+		
+        
+		<weapon_flower chestChance="0" coinCost="1" flyaway="|440|FLOWER|" hint="|440|FLOWER|" isWeapon="True" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="weapon" urnChance="0">weapon_flower.png</weapon_flower>
+        <weapon_golden_lute chestChance="0" coinCost="1" flyaway="|441|GOLDEN LUTE|" hint="|441|GOLDEN LUTE|" imageH="25" imageW="30" isPiercing="True" isWeapon="True" levelEditor="False" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="weapon" urnChance="0">weapon_golden_lute.png</weapon_golden_lute>
+        <weapon_dagger chestChance="0" coinCost="1" flyaway="|442|DAGGER|" hint="|604|DAGGER, THROWABLE|" isDagger="True" isWeapon="True" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="weapon" urnChance="0">weapon_dagger.png</weapon_dagger>
+		<weapon_dagger_shard chestChance="0" coinCost="1" flyaway="|443|GLASS SHARD|" hint="|443|GLASS SHARD|" isDagger="True" isWeapon="True" lockedChestChance="0" lockedShopChance="0" shopChance="0" slot="weapon" urnChance="0">weapon_dagger_shard.png</weapon_dagger_shard>
+        <weapon_titanium_dagger chestChance="50" coinCost="10" diamondDealable="1" flyaway="|444|PHASING DAGGER|" hint="|605|PHASING DAMAGE|" isDagger="True" isPhasing="true" isTitanium="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_dagger_titanium.png</weapon_titanium_dagger>
+        <weapon_obsidian_dagger chestChance="50" coinCost="25" diamondDealable="2" flyaway="|445|OBSIDIAN DAGGER|" hint="|606|MULTIPLIER-BASED DAMAGE|" isDagger="True" isObsidian="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" numFrames="3" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_dagger_obsidian.png</weapon_obsidian_dagger>
+        <weapon_golden_dagger chestChance="50" coinCost="15" diamondDealable="1" flyaway="|446|GOLDEN DAGGER|" hint="|607|HIGH DMG AFTER GOLD PICKUP, PIERCING|" isDagger="True" isGold="True" isPiercing="true" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_dagger_golden.png</weapon_golden_dagger>
+        <weapon_blood_dagger chestChance="50" coinCost="5" diamondDealable="1" flyaway="|447|BLOOD DAGGER|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" isBlood="True" isDagger="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_dagger_blood.png</weapon_blood_dagger>
+        <weapon_glass_dagger chestChance="50" coinCost="20" diamondDealable="2" flyaway="|448|GLASS DAGGER|" hint="|609|4 DAMAGE, BREAKABLE|" isDagger="True" isGlass="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_dagger_glass.png</weapon_glass_dagger>
+        <weapon_dagger_jeweled chestChance="100" coinCost="100" flyaway="|449|JEWELED DAGGER|" hint="|610|5 DAMAGE|" isDagger="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_dagger_jeweled.png</weapon_dagger_jeweled>
+        <weapon_dagger_frost chestChance="50" coinCost="40" diamondDealable="2" flyaway="|450|FROST DAGGER|" hint="|611|FREEZE ENEMIES, KILL FROZEN ENEMIES|" isDagger="True" isFrost="True" isPiercing="false" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_dagger_frost.png</weapon_dagger_frost>
+        <weapon_dagger_phasing chestChance="50" coinCost="25" diamondDealable="2" flyaway="|451|TITANIUM DAGGER|" hint="|612|PHASING ATTACK|" isDagger="True" isPhasing="false" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_dagger_phasing.png</weapon_dagger_phasing>
+		<weapon_broadsword chestChance="100" coinCost="30" diamondDealable="1" flyaway="|452|PHASING BROADSWORD|" hint="|613|WIDE ATTACK, PHASING|" isBroadsword="True" isPhasing="true" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_broadsword.png</weapon_broadsword>
+		<weapon_titanium_broadsword chestChance="100" coinCost="75" diamondDealable="3" flyaway="|453|TITANIUM BROADSWORD|" hint="|605|2 DAMAGE|" isBroadsword="True" isTitanium="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_broadsword_titanium.png</weapon_titanium_broadsword>
+		<weapon_obsidian_broadsword chestChance="40" coinCost="250" diamondDealable="4" flyaway="|454|OBSIDIAN BROADSWORD|" hint="|606|MULTIPLIER-BASED DAMAGE|" imageH="26" imageW="26" isBroadsword="True" isObsidian="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="3" shopChance="40" slot="weapon" unlocked="true" urnChance="100">weapon_broadsword_obsidian.png</weapon_obsidian_broadsword>
+        <weapon_golden_broadsword chestChance="100" coinCost="75" diamondDealable="2" flyaway="|455|FROST BROADSWORD|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" isBroadsword="True" isFrost="true" isGold="false" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_broadsword_golden.png</weapon_golden_broadsword>
+        <weapon_blood_broadsword chestChance="50" coinCost="40" diamondDealable="2" flyaway="|456|BLOOD BROADSWORD|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" isBlood="True" isBroadsword="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_broadsword_blood.png</weapon_blood_broadsword>
+        <weapon_glass_broadsword chestChance="40" coinCost="75" diamondDealable="4" flyaway="|457|GLASS BROADSWORD|" hint="|609|4 DAMAGE, BREAKABLE|" isBroadsword="True" isGlass="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="weapon" unlocked="true" urnChance="100">weapon_broadsword_glass.png</weapon_glass_broadsword>
+        <weapon_longsword chestChance="100" coinCost="50" diamondCost="3" diamondDealable="2" flyaway="|458|PHASING LONGSWORD|" hint="|614|LONG ATTACK, PHASING|" isLongsword="True" isPhasing="true" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_longsword.png</weapon_longsword>
+		<weapon_titanium_longsword chestChance="100" coinCost="120" diamondDealable="4" flyaway="|459|TITANIUM LONGSWORD|" hint="|605|2 DAMAGE|" isLongsword="True" isTitanium="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_longsword_titanium.png</weapon_titanium_longsword>
+		<weapon_obsidian_longsword chestChance="40" coinCost="350" diamondDealable="5" flyaway="|460|OBSIDIAN LONGSWORD|" hint="|606|MULTIPLIER-BASED DAMAGE|" imageH="26" imageW="26" isLongsword="True" isObsidian="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="3" shopChance="40" slot="weapon" urnChance="100">weapon_longsword_obsidian.png</weapon_obsidian_longsword>
+		<weapon_golden_longsword chestChance="100" coinCost="125" diamondDealable="3" flyaway="|461|FROST LONGSWORD|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" isFrost="true" isGold="false" isLongsword="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_longsword_golden.png</weapon_golden_longsword>
+        <weapon_blood_longsword chestChance="50" coinCost="65" diamondDealable="3" flyaway="|462|BLOOD LONGSWORD|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" isBlood="True" isLongsword="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" urnChance="0">weapon_longsword_blood.png</weapon_blood_longsword>
+        <weapon_glass_longsword chestChance="40" coinCost="125" diamondDealable="5" flyaway="|463|GLASS LONGSWORD|" hint="|609|4 DAMAGE, BREAKABLE|" isGlass="True" isLongsword="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="weapon" urnChance="100">weapon_longsword_glass.png</weapon_glass_longsword>
+        <weapon_whip chestChance="100" coinCost="20" diamondCost="2" diamondDealable="1" flyaway="|464|PHASING WHIP|" hint="|615|WIDER ATTACK, PHASING|" isPhasing="true" isWeapon="True" isWhip="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_whip.png</weapon_whip>
+        <weapon_titanium_whip chestChance="100" coinCost="50" diamondDealable="3" flyaway="|465|TITANIUM WHIP|" hint="|605|2 DAMAGE|" isTitanium="True" isWeapon="True" isWhip="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_whip_titanium.png</weapon_titanium_whip>
+        <weapon_obsidian_whip chestChance="40" coinCost="150" diamondDealable="4" flyaway="|466|OBSIDIAN WHIP|" hint="|606|MULTIPLIER-BASED DAMAGE|" isObsidian="True" isWeapon="True" isWhip="True" lockedChestChance="40" lockedShopChance="40" numFrames="3" shopChance="40" slot="weapon" urnChance="100">weapon_whip_obsidian.png</weapon_obsidian_whip>
+        <weapon_golden_whip chestChance="100" coinCost="50" diamondDealable="2" flyaway="|467|FROST WHIP|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" isFrost="true" isGold="false" isWeapon="True" isWhip="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_whip_golden.png</weapon_golden_whip>
+        <weapon_blood_whip chestChance="50" coinCost="40" diamondDealable="2" flyaway="|468|BLOOD WHIP|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" isBlood="True" isWeapon="True" isWhip="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" urnChance="0">weapon_whip_blood.png</weapon_blood_whip>
+        <weapon_glass_whip chestChance="40" coinCost="50" diamondDealable="4" flyaway="|469|GLASS WHIP|" hint="|609|4 DAMAGE, BREAKABLE|" isGlass="True" isWeapon="True" isWhip="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="weapon" urnChance="100">weapon_whip_glass.png</weapon_glass_whip>
+        <weapon_spear chestChance="100" coinCost="40" diamondCost="1" diamondDealable="2" flyaway="|470|PHASING SPEAR|" hint="|616|LONG ATTACK, THROWABLE, PHASING|" isPhasing="true" isSpear="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_spear.png</weapon_spear>
+        <weapon_titanium_spear chestChance="100" coinCost="100" diamondDealable="4" flyaway="|471|TITANIUM SPEAR|" hint="|605|2 DAMAGE|" isSpear="True" isTitanium="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_spear_titanium.png</weapon_titanium_spear>
+		<weapon_obsidian_spear chestChance="40" coinCost="300" diamondDealable="5" flyaway="|472|OBSIDIAN SPEAR|" hint="|606|MULTIPLIER-BASED DAMAGE|" isObsidian="True" isSpear="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="3" shopChance="40" slot="weapon" urnChance="100">weapon_spear_obsidian.png</weapon_obsidian_spear>
+		<weapon_golden_spear chestChance="100" coinCost="100" diamondDealable="3" flyaway="|473|FROST SPEAR|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" isFrost="true" isGold="false" isSpear="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_spear_golden.png</weapon_golden_spear>
+        <weapon_blood_spear chestChance="50" coinCost="50" diamondDealable="3" flyaway="|474|BLOOD SPEAR|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" isBlood="True" isSpear="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" urnChance="0">weapon_spear_blood.png</weapon_blood_spear>
+        <weapon_glass_spear chestChance="40" coinCost="100" diamondDealable="5" flyaway="|475|GLASS SPEAR|" hint="|609|4 DAMAGE, BREAKABLE|" isGlass="True" isSpear="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="weapon" urnChance="100">weapon_spear_glass.png</weapon_glass_spear>
+        <weapon_rapier chestChance="100" coinCost="60" diamondCost="3" diamondDealable="2" flyaway="|476|PHASING RAPIER|" hint="|617|LUNGE FOR DOUBLE DAMAGE, PHASING|" imageH="27" imageW="26" isPhasing="true" isRapier="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_rapier.png</weapon_rapier>
+		<weapon_titanium_rapier chestChance="100" coinCost="120" diamondDealable="4" flyaway="|477|TITANIUM RAPIER|" hint="|605|2 DAMAGE|" imageH="27" imageW="26" isRapier="True" isTitanium="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_rapier_titanium.png</weapon_titanium_rapier>
+		<weapon_obsidian_rapier chestChance="40" coinCost="400" diamondDealable="5" flyaway="|478|OBSIDIAN RAPIER|" hint="|606|MULTIPLIER-BASED DAMAGE|" imageH="27" imageW="26" isObsidian="True" isRapier="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="3" shopChance="40" slot="weapon" urnChance="100">weapon_rapier_obsidian.png</weapon_obsidian_rapier>
+		<weapon_golden_rapier chestChance="100" coinCost="120" diamondDealable="3" flyaway="|479|FROST RAPIER|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" imageH="27" imageW="26" isFrost="true" isGold="false" isRapier="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_rapier_golden.png</weapon_golden_rapier>
+        <weapon_blood_rapier chestChance="50" coinCost="75" diamondDealable="3" flyaway="|480|BLOOD RAPIER|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" imageH="27" imageW="26" isBlood="True" isRapier="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" urnChance="0">weapon_rapier_blood.png</weapon_blood_rapier>
+        <weapon_glass_rapier chestChance="40" coinCost="120" diamondDealable="5" flyaway="|481|GLASS RAPIER|" hint="|609|4 DAMAGE, BREAKABLE|" imageH="27" imageW="26" isGlass="True" isRapier="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="weapon" urnChance="100">weapon_rapier_glass.png</weapon_glass_rapier>
+        <weapon_bow chestChance="100" coinCost="150" diamondDealable="3" flyaway="|482|PHASING BOW|" hint="|618|RANGED ATTACK, PHASING|" imageH="26" imageW="25" isBow="True" isPhasing="true" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_bow.png</weapon_bow>
+		<weapon_titanium_bow chestChance="100" coinCost="400" diamondDealable="6" flyaway="|483|TITANIUM BOW|" hint="|605|2 DAMAGE|" imageH="26" imageW="25" isBow="True" isTitanium="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_bow_titanium.png</weapon_titanium_bow>
+		<weapon_obsidian_bow chestChance="40" coinCost="600" diamondDealable="8" flyaway="|484|OBSIDIAN BOW|" hint="|606|MULTIPLIER-BASED DAMAGE|" imageH="26" imageW="25" isBow="True" isObsidian="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="3" shopChance="40" slot="weapon" unlocked="true" urnChance="100">weapon_bow_obsidian.png</weapon_obsidian_bow>
+		<weapon_golden_bow chestChance="100" coinCost="300" diamondDealable="4" flyaway="|485|FROST BOW|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" imageH="26" imageW="25" isBow="True" isFrost="true" isGold="false" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_bow_golden.png</weapon_golden_bow>
+        <weapon_blood_bow chestChance="50" coinCost="250" diamondDealable="4" flyaway="|486|BLOOD BOW|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" imageH="26" imageW="25" isBlood="True" isBow="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_bow_blood.png</weapon_blood_bow>
+        <weapon_glass_bow chestChance="40" coinCost="400" diamondDealable="8" flyaway="|487|GLASS BOW|" hint="|609|4 DAMAGE, BREAKABLE|" imageH="26" imageW="25" isBow="True" isGlass="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="weapon" unlocked="true" urnChance="100">weapon_bow_glass.png</weapon_glass_bow>
+        <weapon_crossbow chestChance="100" coinCost="100" diamondDealable="2" flyaway="|488|PHASING CROSSBOW|" hint="|619|RANGED ATTACK, NEEDS RELOADING, PIERCING, PHASING|" imageH="27" imageW="27" isCrossbow="True" isPhasing="true" isPiercing="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" numFrames="4" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_crossbow.png</weapon_crossbow>
+		<weapon_titanium_crossbow chestChance="100" coinCost="350" diamondDealable="4" flyaway="|489|TITANIUM CROSSBOW|" hint="|605|2 DAMAGE|" imageH="27" imageW="27" isCrossbow="True" isPiercing="True" isTitanium="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" numFrames="4" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_crossbow_titanium.png</weapon_titanium_crossbow>
+        <weapon_obsidian_crossbow chestChance="40" coinCost="500" diamondDealable="5" flyaway="|490|OBSIDIAN CROSSBOW|" hint="|606|MULTIPLIER-BASED DAMAGE|" imageH="27" imageW="27" isCrossbow="True" isObsidian="True" isPiercing="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="12" shopChance="40" slot="weapon" unlocked="true" urnChance="100">weapon_crossbow_obsidian.png</weapon_obsidian_crossbow>
+		<weapon_golden_crossbow chestChance="100" coinCost="250" diamondDealable="3" flyaway="|491|FROST CROSSBOW|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" imageH="27" imageW="27" isCrossbow="True" isFrost="true" isGold="false" isPiercing="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" numFrames="4" shopChance="100" slot="weapon" unlocked="true" urnChance="0">weapon_crossbow_golden.png</weapon_golden_crossbow>
+        <weapon_blood_crossbow chestChance="50" coinCost="225" diamondDealable="3" flyaway="|492|BLOOD CROSSBOW|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" imageH="27" imageW="27" isBlood="True" isCrossbow="True" isPiercing="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" numFrames="4" shopChance="5000" slot="weapon" unlocked="true" urnChance="0">weapon_crossbow_blood.png</weapon_blood_crossbow>
+        <weapon_glass_crossbow chestChance="40" coinCost="300" diamondDealable="5" flyaway="|493|GLASS CROSSBOW|" hint="|609|4 DAMAGE, BREAKABLE|" imageH="27" imageW="27" isCrossbow="True" isGlass="True" isPiercing="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="4" shopChance="40" slot="weapon" unlocked="true" urnChance="100">weapon_crossbow_glass.png</weapon_glass_crossbow>
+        <weapon_flail chestChance="100" coinCost="60" diamondCost="8" diamondDealable="2" flyaway="|494|PHASING FLAIL|" hint="|620|KNOCKBACK ATTACK, PHASING|" isFlail="True" isPhasing="true" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_flail.png</weapon_flail>
+		<weapon_titanium_flail chestChance="100" coinCost="120" diamondDealable="4" flyaway="|495|TITANIUM FLAIL|" hint="|605|2 DAMAGE|" isFlail="True" isTitanium="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_flail_titanium.png</weapon_titanium_flail>
+		<weapon_obsidian_flail chestChance="40" coinCost="350" diamondDealable="5" flyaway="|496|OBSIDIAN FLAIL|" hint="|606|MULTIPLIER-BASED DAMAGE|" isFlail="True" isObsidian="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="3" shopChance="40" slot="weapon" urnChance="100">weapon_flail_obsidian.png</weapon_obsidian_flail>
+		<weapon_golden_flail chestChance="100" coinCost="120" diamondDealable="3" flyaway="|497|FROST FLAIL|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" isFlail="True" isFrost="true" isGold="false" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_flail_gold.png</weapon_golden_flail>
+		<weapon_blood_flail chestChance="50" coinCost="80" diamondDealable="3" flyaway="|498|BLOOD FLAIL|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" isBlood="True" isFlail="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" urnChance="0">weapon_flail_blood.png</weapon_blood_flail>
+		<weapon_glass_flail chestChance="40" coinCost="120" diamondDealable="5" flyaway="|499|GLASS FLAIL|" hint="|609|4 DAMAGE, BREAKABLE|" isFlail="True" isGlass="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="weapon" urnChance="100">weapon_flail_glass.png</weapon_glass_flail>
+		<weapon_cat chestChance="100" coinCost="50" diamondCost="8" diamondDealable="2" flyaway="|500|PHASING CAT O NINE TAILS|" hint="|621|MOVE AND ATTACK, PHASING|" isCat="True" isPhasing="true" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_cat.png</weapon_cat>
+		<weapon_titanium_cat chestChance="100" coinCost="120" diamondDealable="4" flyaway="|501|TITANIUM CAT|" hint="|605|2 DAMAGE|" isCat="True" isTitanium="True" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_cat_titanium.png</weapon_titanium_cat>
+		<weapon_obsidian_cat chestChance="40" coinCost="300" diamondDealable="5" flyaway="|502|OBSIDIAN CAT|" hint="|606|MULTIPLIER-BASED DAMAGE|" imageW="25" isCat="True" isObsidian="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="3" shopChance="40" slot="weapon" urnChance="100">weapon_cat_obsidian.png</weapon_obsidian_cat>
+		<weapon_golden_cat chestChance="100" coinCost="150" diamondDealable="3" flyaway="|503|FROST CAT|" hint="|607|FREEZE ENEMIES, KILL FROZEN ENEMIES|" isCat="True" isFrost="true" isGold="false" isWeapon="True" lockedChestChance="100" lockedShopChance="100" shopChance="100" slot="weapon" urnChance="0">weapon_cat_gold.png</weapon_golden_cat>
+		<weapon_blood_cat chestChance="50" coinCost="65" diamondDealable="3" flyaway="|504|BLOOD CAT|" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" isBlood="True" isCat="True" isWeapon="True" lockedChestChance="50" lockedShopChance="0" shopChance="5000" slot="weapon" urnChance="0">weapon_cat_blood.png</weapon_blood_cat>
+		<weapon_glass_cat chestChance="40" coinCost="150" diamondDealable="5" flyaway="|505|GLASS CAT|" hint="|609|4 DAMAGE, BREAKABLE|" isCat="True" isGlass="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" shopChance="40" slot="weapon" urnChance="100">weapon_cat_glass.png</weapon_glass_cat>
+		<weapon_blunderbuss chestChance="40" coinCost="350" flyaway="|506|BLUNDERBUSS|" hint="|622|CONICAL BLAST, NEEDS RELOADING, PIERCING|" imageH="36" imageW="25" isBlunderbuss="True" isPiercing="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="2" playerKnockback="True" screenFlash="True" screenShake="True" shopChance="40" slot="weapon" sound="blunderbussShoot" unlocked="true" urnChance="100" yOff="-12">weapon_blunderbuss.png</weapon_blunderbuss>
+		<weapon_rifle chestChance="40" coinCost="400" diamondCost="9" flyaway="|507|RIFLE|" hint="|623|RANGED ATTACK, NEEDS LOADING, PIERCING|" imageH="37" imageW="25" isPiercing="True" isRifle="True" isWeapon="True" lockedChestChance="40" lockedShopChance="40" numFrames="2" playerKnockback="True" shopChance="40" slot="weapon" sound="rifleShoot" urnChance="100" yOff="-10">weapon_rifle.png</weapon_rifle>
+	</items>
+
+	
+	<enemies>
+		<armadillo friendlyName="White Armadillo" id="110" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="22" yOff="3">entities/armadillo.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="10201102" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+		</armadillo>
+		<armadillo friendlyName="Yellow Armadillo" id="111" type="2">
+			<spritesheet frameH="24" frameW="24" numFrames="22" yOff="3">entities/armadillo_yellow.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="5" damagePerHit="3" health="2" movement="custom" priority="10302105" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+		</armadillo>
+		<armadillo friendlyName="Orange Armadillo" id="303" type="3">
+			<spritesheet frameH="24" frameW="24" numFrames="38" yOff="3">entities/armadillo_mandarin.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="4" damagePerHit="3" health="3" movement="custom" priority="10303104" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+		</armadillo>
+		<armoredskeleton friendlyName="White Armored Skeleton" id="100" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="12">entities/armoredskeleton.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" />
+			<frame animType="tell" inAnim="2" inSheet="6" />
+			<frame animType="tell" inAnim="3" inSheet="7" />
+			<frame animType="tell" inAnim="4" inSheet="8" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="1" health="1" movement="custom" priority="10101202" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</armoredskeleton>
+		<armoredskeleton friendlyName="Yellow Armored Skeleton" id="101" type="2">
+			<spritesheet frameH="24" frameW="24" numFrames="12">entities/armoredskeleton_yellow.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" />
+			<frame animType="tell" inAnim="2" inSheet="6" />
+			<frame animType="tell" inAnim="3" inSheet="7" />
+			<frame animType="tell" inAnim="4" inSheet="8" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="4" damagePerHit="3" health="2" movement="custom" priority="10302204" />
+			<particle hit="particles/TEMP_particle_yellowgreen.png" />
+		</armoredskeleton>
+		<armoredskeleton friendlyName="Black Armored Skeleton" id="102" type="3">
+			<spritesheet frameH="24" frameW="24" numFrames="12">entities/armoredskeleton_black.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" />
+			<frame animType="tell" inAnim="2" inSheet="6" />
+			<frame animType="tell" inAnim="3" inSheet="7" />
+			<frame animType="tell" inAnim="4" inSheet="8" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="6" damagePerHit="5" health="3" movement="custom" priority="10503206" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</armoredskeleton>
+		<banshee friendlyName="Blue Banshee" id="405" type="1">
+			<spritesheet frameH="39" frameW="34" heartYOff="-24" numFrames="16" xOff="-6" yOff="-15" zOff="18">entities/banshee.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="4">entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="10" damagePerHit="4" health="3" movement="basicSeek" priority="30403110" />
+			<optionalStats bounceOnMovementFail="False" floating="True" ignoreWalls="False" miniboss="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+            <particle hit="particles/TEMP_particle_white.png" />
+		</banshee>
+		<banshee friendlyName="Green Banshee" id="406" type="2">
+			<spritesheet frameH="39" frameW="34" heartYOff="-24" numFrames="16" xOff="-6" yOff="-15" zOff="18">entities/banshee2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="4">entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="15" damagePerHit="6" health="4" movement="basicSeek" priority="30604115" />
+			<optionalStats bounceOnMovementFail="False" floating="True" ignoreWalls="False" miniboss="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+            <particle hit="particles/TEMP_particle_white.png" />
+		</banshee>
+		<bat friendlyName="Blue Bat" id="6" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="8" xOff="0" yOff="-4">entities/bat.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="1" health="1" movement="random" priority="10101202" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</bat>
+		<bat friendlyName="Red Bat" id="7" type="2">
+			<spritesheet frameH="24" frameW="24" numFrames="8" xOff="0" yOff="-4">entities/bat_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="2" health="1" movement="random" priority="10201103" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</bat>
+		<bat friendlyName="Green Bat" id="8" type="3">
+			<spritesheet frameH="24" frameW="24" numFrames="8" xOff="0" yOff="-4">entities/bat_green.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="20" damagePerHit="3" health="1" movement="randomWithDiagonals" priority="10301120" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</bat>
+		<bat friendlyName="Black Bat" id="302" type="4">
+			<spritesheet frameH="24" frameW="24" numFrames="8" xOff="0" yOff="-4">entities/bat_black.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="4" damagePerHit="2" health="1" movement="custom" priority="10401120" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</bat>
+		<bat_miniboss friendlyName="Yellow DireBat" id="400" type="1">
+			<spritesheet frameH="24" frameW="36" numFrames="8" xOff="-7" yOff="-4">entities/bat_miniboss_yellow.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="3" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="2" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="10" damagePerHit="3" health="2" movement="random" priority="30302210" />
+			<optionalStats bounceOnMovementFail="False" floating="True" miniboss="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</bat_miniboss>
+		<bat_miniboss friendlyName="Brown DireBat" id="401" type="2">
+			<spritesheet frameH="24" frameW="36" numFrames="8" xOff="-7" yOff="-4">entities/bat_miniboss.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="3" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="2" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="15" damagePerHit="4" health="3" movement="random" priority="30403215" />
+			<optionalStats bounceOnMovementFail="False" floating="True" miniboss="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</bat_miniboss>
+		<bell levelEditor="False" type="1">
+			<spritesheet frameH="34" frameW="35" numFrames="8" xOff="-6" yOff="-2">entities/bell.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+			<shadow yOff="5">entities/TEMP_shadow_large.png</shadow>
+			<optionalStats bounceOnMovementFail="False" />
+		</bell>
+		<bell levelEditor="False" type="2">
+			<spritesheet frameH="41" frameW="42" numFrames="2" xOff="-9" yOff="-10">entities/gong.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+			<shadow yOff="4">entities/TEMP_shadow_large.png</shadow>
+			<optionalStats bounceOnMovementFail="False" />
+		</bell>
+		<beastmaster levelEditor="False" type="1">
+			<spritesheet frameH="25" frameW="27" numFrames="4" yOff="0">entities/beastmaster.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow xOff="-2" yOff="2">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</beastmaster>
+		<bossmaster levelEditor="False" type="1">
+			<spritesheet frameH="31" frameW="26" numFrames="4" yOff="-2">entities/bossmaster.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="4">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</bossmaster>
+        <beetle friendlyName="Fire Beetle" id="209" type="1">
+			<spritesheet frameH="23" frameW="32" numFrames="16" xOff="-4" yOff="5">entities/beetle.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="3" movement="basicSeek" priority="10303202" />
+		</beetle>
+        <beetle friendlyName="Ice Beetle" id="210" type="2">
+			<spritesheet frameH="23" frameW="32" numFrames="16" xOff="-4" yOff="5">entities/beetle2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="3" movement="basicSeek" priority="10303202" />
+		</beetle>
+		<bishop levelEditor="False" type="1">
+			<spritesheet frameH="32" frameW="18" numFrames="10" xOff="6" yOff="-8">entities/bishop.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="1" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="46000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats boss="True" />
+		</bishop>
+		<bishop friendlyName="Red Bishop" levelEditor="False" type="2">
+			<spritesheet frameH="32" frameW="18" numFrames="10" xOff="6" yOff="-8">entities/bishop_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="1" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="2" damagePerHit="2" health="2" movement="custom" priority="46000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats boss="True" />
+		</bishop>
+		<blademaster friendlyName="Apprentice Blademaster" id="304" type="1">
+			<spritesheet frameH="28" frameW="41" numFrames="40" xOff="-13" yOff="0">entities/blademaster.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.74" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.74" onFraction="0.49" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.49" onFraction="0.24" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.24" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="6" offFraction="0.99" onFraction="0.74" />
+			<frame animType="normal2" inAnim="2" inSheet="7" offFraction="0.74" onFraction="0.49" />
+			<frame animType="normal2" inAnim="3" inSheet="8" offFraction="0.49" onFraction="0.24" />
+			<frame animType="normal2" inAnim="4" inSheet="5" offFraction="0.24" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="3" damagePerHit="1" health="1" movement="custom" priority="99999995" />
+			<particle hit="particles/TEMP_particle_blood.png" />
+		</blademaster>
+		<blademaster friendlyName="Blademaster" id="305" type="2">
+			<spritesheet frameH="28" frameW="41" numFrames="40" xOff="-13" yOff="0">entities/blademaster_2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.74" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.74" onFraction="0.49" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.49" onFraction="0.24" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.24" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="6" offFraction="0.99" onFraction="0.74" />
+			<frame animType="normal2" inAnim="2" inSheet="7" offFraction="0.74" onFraction="0.49" />
+			<frame animType="normal2" inAnim="3" inSheet="8" offFraction="0.49" onFraction="0.24" />
+			<frame animType="normal2" inAnim="4" inSheet="5" offFraction="0.24" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="5" damagePerHit="2" health="2" movement="custom" priority="99999996" />
+			<particle hit="particles/TEMP_particle_blood.png" />
+		</blademaster>
+		<cauldron id="217" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="2" xOff="0" yOff="6">entities/cauldron_coals.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<particle hit="particles/TEMP_particle_red.png" />
+			<optionalStats bounceOnMovementFail="False" />
+		</cauldron>
+		<cauldron id="218" type="2">
+			<spritesheet frameH="24" frameW="24" numFrames="2" xOff="0" yOff="6">entities/cauldron_ice.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats bounceOnMovementFail="False" />
+		</cauldron>
+        <clone id="112" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="8" xOff="0" yOff="2">entities/clone.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="3" health="1" movement="custom" priority="10301102" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</clone>
+		<conjurer levelEditor="False" type="1">
+			<spritesheet frameH="41" frameW="63" numFrames="10" xOff="-8" yOff="-8" zOff="8">entities/npc_conjurer.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.79" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.79" onFraction="0.59" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.59" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="5" inSheet="5" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" />
+		</conjurer>
+		<coralriff friendlyName="Coral Riff" levelEditor="False" type="1">
+			<spritesheet frameH="60" frameW="43" heartXOff="-9" heartYOff="-5" numFrames="8" xOff="-10" yOff="-25" zOff="39">entities/coralriff_head.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="2" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="3" offFraction="0.09" onFraction="0.99" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="3" health="3" movement="custom" priority="40302100" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<optionalStats boss="True" />
+		</coralriff>
+		<crate friendlyName="Crate" levelEditor="False" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="2" xOff="0" yOff="6">entities/crate.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+			<shadow yOff="4">entities/TEMP_shadow_large.png</shadow>
+		</crate>
+		<crate friendlyName="Barrel" levelEditor="False" type="2">
+			<spritesheet frameH="27" frameW="27" numFrames="26" xOff="-2" yOff="2">entities/barrel.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" priority="80" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+			<shadow yOff="2">entities/TEMP_shadow_large.png</shadow>
+		</crate>
+		<crate friendlyName="Teh Urn" levelEditor="False" type="3">
+			<spritesheet frameH="28" frameW="24" numFrames="2" xOff="0" yOff="2">entities/teh_urn.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="3" movement="custom" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+			<shadow yOff="4">entities/TEMP_shadow_large.png</shadow>
+		</crate>
+		<dead_ringer friendlyName="Dead Ringer" levelEditor="False" type="1">
+			<spritesheet frameH="41" frameW="40" numFrames="16" xOff="-1" yOff="-11" zOff="11">entities/dead_ringer.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<shadow yOff="3">entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="0" damagePerHit="4" health="2" movement="custom" priority="40606100" />
+			<optionalStats boss="True" massive="True" />
+		</dead_ringer>
+		<deathmetal friendlyName="Death Metal" levelEditor="False" type="1">
+			<spritesheet frameH="53" frameW="88" heartXOff="-10" heartYOff="-32" numFrames="20" xOff="-32" yOff="-24" zOff="38">entities/death_metal.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="9" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="10" offFraction="0.14" onFraction="0.99" />
+			<shadow xOff="-10" yOff="18">entities/large_shadow.png</shadow>
+			<stats beatsPerMove="3" coinsToDrop="0" damagePerHit="3" health="9" movement="custom" priority="40309300" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+			<optionalStats boss="True" />
+		</deathmetal>
+		<diamonddealer levelEditor="False" type="1">
+			<spritesheet frameH="24" frameW="26" numFrames="8" yOff="0">entities/diamond_dealer.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow xOff="-2" yOff="2">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</diamonddealer>
+		<doppelganger levelEditor="False" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="8" xOff="0" yOff="2">entities/clone.png</spritesheet>
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="3" health="5" movement="custom" priority="10305103" />
+		</doppelganger>
+		<dragon friendlyName="Green Dragon" id="402" type="1">
+			<spritesheet frameH="51" frameW="54" heartYOff="-28" numFrames="4" xOff="-15" yOff="-24" zOff="36">entities/dragon_green.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="10" damagePerHit="4" health="4" movement="custom" priority="30404210" />
+			<optionalStats massive="True" miniboss="True" />
+		</dragon>
+		<dragon friendlyName="Red Dragon" id="403" type="2">
+			<spritesheet frameH="51" frameW="61" heartYOff="-28" numFrames="14" xOff="-22" yOff="-24" zOff="36">entities/dragon_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="20" damagePerHit="6" health="6" movement="custom" priority="99999999" />
+			<optionalStats massive="True" miniboss="True" />
+		</dragon>
+		<dragon friendlyName="Blue Dragon" id="404" type="3">
+			<spritesheet frameH="51" frameW="61" heartYOff="-28" numFrames="14" xOff="-22" yOff="-24" zOff="36">entities/dragon_blue.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="20" damagePerHit="6" health="6" movement="custom" priority="99999997" />
+			<optionalStats massive="True" miniboss="True" />
+		</dragon>
+		<fakewall friendlyName="Wall Mimic" id="116" type="1">
+			<spritesheet frameH="55" frameW="24" numFrames="6" yOff="-10" zOff="10">entities/fakewall.png</spritesheet>
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="2" health="1" movement="custom" priority="10201103" />
+			<optionalStats bounceOnMovementFail="False" />
+		</fakewall>
+        <fireelemental friendlyName="Fire Elemental" id="205" type="1">
+			<spritesheet frameH="53" frameW="43" heartYOff="-23" numFrames="8" xOff="-10" yOff="-22" zOff="25">entities/fire_elemental1.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow yOff="4">entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="3" coinsToDrop="2" damagePerHit="3" health="2" movement="basicSeek" priority="20302302" />
+			<optionalStats massive="True" />
+            <particle hit="particles/TEMP_particle_red.png" />
+		</fireelemental>
+		<gargoyle id="322" type="1">
+			<spritesheet frameH="34" frameW="31" heartYOff="-10" numFrames="8" xOff="-3" yOff="-9" zOff="10">entities/gargoyle1.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="4" health="1" movement="custom" priority="10401102" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</gargoyle>
+		<gargoyle id="323" type="2">
+			<spritesheet frameH="33" frameW="27" heartYOff="-9" numFrames="8" xOff="-1" yOff="-8" zOff="9">entities/gargoyle2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="4" health="1" movement="custom" priority="10401102" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</gargoyle>
+		<gargoyle id="324" type="3">
+			<spritesheet frameH="33" frameW="27" heartYOff="-9" numFrames="8" xOff="-1" yOff="-8" zOff="9">entities/gargoyle3.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="4" health="1" movement="custom" priority="10401102" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</gargoyle>
+		<gargoyle id="325" type="4">
+			<spritesheet frameH="33" frameW="27" heartYOff="-9" numFrames="4" xOff="-1" yOff="-8" zOff="9">entities/gargoyle4.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="4" health="1" movement="custom" priority="10401102" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</gargoyle>
+		<gargoyle id="326" type="5">
+			<spritesheet frameH="30" frameW="27" heartYOff="-6" numFrames="2" xOff="-1" yOff="-5" zOff="6">entities/gargoyle5.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="4" health="1" movement="custom" priority="10401102" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</gargoyle>
+		<gargoyle id="327" type="6">
+			<spritesheet frameH="38" frameW="24" heartYOff="-11" numFrames="2" xOff="2" yOff="-10" zOff="10">entities/gargoyle6.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="4" health="1" movement="custom" priority="10401102" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</gargoyle>
+		<gargoyle levelEditor="False" type="7">
+			<spritesheet frameH="38" frameW="24" heartYOff="-11" numFrames="2" xOff="2" yOff="-25" zOff="35">entities/gargoyle7.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="0" health="1" movement="custom" priority="10401102" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</gargoyle>
+		<ghast id="214" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="6">entities/ghast.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="blink" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="10201102" />
+			<optionalStats bounceOnMovementFail="False" floating="True" ignoreWalls="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</ghast>
+		<ghost id="11" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="4">entities/ghost.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="10201102" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="25" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</ghost>
+		<ghoul friendlyName="Ghoul" id="306" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="6">entities/ghoul.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="blink" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="4" damagePerHit="1" health="1" movement="custom" priority="10301102" />
+			<optionalStats bounceOnMovementFail="False" floating="True" ignoreWalls="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</ghoul>
+		<goblin friendlyName="Purple Goblin" id="207" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="16">entities/goblin.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="4" health="1" movement="custom" priority="10401103" />
+			<particle hit="particles/TEMP_particle_red.png" />
+		</goblin>
+		<goblin friendlyName="Gray Goblin" id="208" type="2">
+			<spritesheet frameH="24" frameW="24" numFrames="16">entities/goblin2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="5" damagePerHit="6" health="2" movement="custom" priority="10602105" />
+			<particle hit="particles/TEMP_particle_red.png" />
+		</goblin>
+		<goblin_bomber friendlyName="Goblin Bomber" id="300" type="1">
+			<spritesheet frameH="36" frameW="26" numFrames="8" xOff="-1" yOff="-10" zOff="12">entities/goblin_bomber.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="13" damagePerHit="0" health="1" movement="custom" priority="99999998" />
+			<particle hit="particles/TEMP_particle_red.png" />
+		</goblin_bomber>
+        <golem friendlyName="Light Golem" id="108" type="1">
+			<spritesheet frameH="48" frameW="48" heartYOff="-21" numFrames="10" xOff="-12" yOff="-20" zOff="25">entities/golem_stone.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="4" damagePerHit="4" health="5" movement="basicSeek" priority="20405404" />
+            <optionalStats massive="True" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+		</golem>
+        <golem friendlyName="Dark Golem" id="109" type="2">
+			<spritesheet frameH="48" frameW="48" heartYOff="-21" numFrames="10" xOff="-12" yOff="-20" zOff="25">entities/golem_dirt.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="7" damagePerHit="6" health="7" movement="basicSeek" priority="20607407" />
+            <optionalStats massive="True" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+		</golem>
+		<golem friendlyName="Ooze Golem" id="307" type="3">
+			<spritesheet frameH="48" frameW="48" heartYOff="-21" numFrames="10" xOff="-12" yOff="-20" zOff="25">entities/golem_ooze.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="9" damagePerHit="5" health="5" movement="basicSeek" priority="20510407" />
+            <optionalStats massive="True" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+		</golem>
+		<harpy id="308" type="1">
+			<spritesheet frameH="32" frameW="41" heartYOff="-7" numFrames="8" xOff="-9" yOff="-13" zOff="30">entities/harpy.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="1" movement="custom" priority="10301203" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<particle hit="particles/TEMP_particle_green.png" />
+		</harpy>
+		<hellhound id="211" type="1">
+			<spritesheet frameH="24" frameW="25" numFrames="8" yOff="3">entities/hellhound.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="1" movement="custom" priority="10301202" />
+			<particle hit="particles/TEMP_particle_orange.png" />
+		</hellhound>
+		<hephaestus levelEditor="False" type="1">
+			<spritesheet frameH="68" frameW="65" numFrames="10" xOff="-18" yOff="-17" zOff="20">entities/TEMP_hephaestus.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.79" />
+			<frame animType="normal" inAnim="2" inSheet="5" offFraction="0.79" onFraction="0.59" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.59" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="2" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="5" inSheet="3" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</hephaestus>
+        <iceelemental friendlyName="Ice Elemental" id="206" type="1">
+			<spritesheet frameH="53" frameW="43" heartYOff="-23" numFrames="8" xOff="-10" yOff="-22" zOff="25">entities/ice_elemental1.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow yOff="4">entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="3" coinsToDrop="2" damagePerHit="3" health="2" movement="basicSeek" priority="20302302" />
+			<optionalStats massive="True" />
+            <particle hit="particles/TEMP_particle_white.png" />
+		</iceelemental>
+		<janitor levelEditor="False" type="1">
+			<spritesheet frameH="33" frameW="36" numFrames="8" xOff="-8" yOff="2">entities/janitor.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow xOff="-2" yOff="6">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</janitor>
+		<king levelEditor="False" type="1">
+			<spritesheet frameH="45" frameW="25" heartYOff="-31" numFrames="8" xOff="-2" yOff="-28" zOff="23">entities/king.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="30" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="4" health="3" movement="custom" priority="49000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+		</king>
+		<king friendlyName="Red King" levelEditor="False" type="2">
+			<spritesheet frameH="45" frameW="25" heartYOff="-31" numFrames="8" xOff="-2" yOff="-28" zOff="23">entities/king_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="30" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="5" health="5" movement="custom" priority="49000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+		</king>
+		<king_conga friendlyName="King Conga" levelEditor="False" type="1">
+			<spritesheet frameH="79" frameW="58" heartYOff="-23" numFrames="14" xOff="-19" yOff="-29" zOff="42">entities/king_conga.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="3" health="2" movement="custom" priority="99000000" />
+			<optionalStats boss="True" massive="True" />
+		</king_conga>
+		<knight levelEditor="False" type="1">
+			<spritesheet frameH="28" frameW="23" numFrames="10" yOff="-4">entities/knight.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.69" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.69" onFraction="0.39" />
+			<frame animType="tell" inAnim="3" inSheet="5" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="4" inSheet="5" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="45000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats boss="True" />
+		</knight>
+		<knight friendlyName="Red Knight" levelEditor="False" type="2">
+			<spritesheet frameH="28" frameW="23" numFrames="10" yOff="-4">entities/knight_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.69" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.69" onFraction="0.39" />
+			<frame animType="tell" inAnim="3" inSheet="5" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="4" inSheet="5" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="3" damagePerHit="2" health="2" movement="custom" priority="45000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats boss="True" />
+		</knight>
+		<leprechaun levelEditor="False" type="1">
+			<spritesheet frameH="24" frameW="16" numFrames="8" xOff="4">entities/leprechaun.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="0" health="4" movement="custom" priority="80000000" />
+			<particle hit="particles/TEMP_particle_green.png" />
+		</leprechaun>
+		<lich id="309" type="1">
+			<spritesheet frameH="30" frameW="24" numFrames="14">entities/lich.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="6" />
+			<frame animType="tell" inAnim="2" inSheet="7" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="3" damagePerHit="2" health="1" movement="custom" priority="10404202" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</lich>
+		<lich friendlyName="Red Lich" id="310" type="2">
+			<spritesheet frameH="30" frameW="24" numFrames="14">entities/lich_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="6" />
+			<frame animType="tell" inAnim="2" inSheet="7" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="3" damagePerHit="3" health="2" movement="custom" priority="10404302" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</lich>
+		<lich friendlyName="Black Lich" id="311" type="3">
+			<spritesheet frameH="30" frameW="24" numFrames="14">entities/lich_black.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="6" />
+			<frame animType="tell" inAnim="2" inSheet="7" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="3" damagePerHit="4" health="3" movement="custom" priority="10404402" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</lich>
+		<lute_dragon friendlyName="The Golden Lute" levelEditor="False" type="1">
+			<spritesheet frameH="75" frameW="68" heartXOff="24" heartYOff="-4" numFrames="8" xOff="0" yOff="-18">entities/lute_boss_body.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="8" coinsToDrop="0" damagePerHit="20" health="10" movement="custom" priority="41000001" />
+			<optionalStats boss="True" massive="True" />
+		</lute_dragon>
+		<lute_head friendlyName="The Golden Lute" levelEditor="False" type="1">
+			<spritesheet frameH="47" frameW="42" numFrames="16" xOff="-10" yOff="-12" zOff="40">entities/lute_boss_head.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="0" damagePerHit="1" health="10" movement="custom" priority="41000000" />
+			<particle hit="particles/TEMP_particle_yellow.png" />
+			<optionalStats boss="True" floating="True" />
+		</lute_head>
+		<medic levelEditor="False" type="1">
+			<spritesheet frameH="53" frameW="57" numFrames="8" xOff="-18" yOff="-20" zOff="20">entities/dungeon_master.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</medic>
+		<merlin levelEditor="False" type="1">
+			<spritesheet frameH="39" frameW="32" numFrames="10" xOff="-5" yOff="-4" zOff="2">entities/merlin.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<frame animType="blink" inAnim="2" inSheet="5" />
+			<shadow yOff="9">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</merlin>
+		<minotaur friendlyName="Light Minotaur" id="407" type="1">
+			<spritesheet frameH="49" frameW="50" heartYOff="-28" numFrames="18" xOff="-13" yOff="-24" zOff="36">entities/minotaur.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="3" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="2" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="10" damagePerHit="4" health="3" movement="custom" priority="30403110" />
+			<optionalStats massive="True" miniboss="True" />
+		</minotaur>
+		<minotaur friendlyName="Dark Minotaur" id="408" type="2">
+			<spritesheet frameH="49" frameW="50" heartYOff="-28" numFrames="18" xOff="-13" yOff="-24" zOff="36">entities/minotaur2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="3" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="2" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="15" damagePerHit="5" health="5" movement="custom" priority="30505115" />
+			<optionalStats massive="True" miniboss="True" />
+		</minotaur>
+		<mole id="114" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="2" yOff="7">entities/mole.png</spritesheet>
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="2" health="1" movement="custom" priority="1020113" />
+			<tweens move="none" moveShadow="none" />
+		</mole>
+		<monkey friendlyName="Purple Monkey" id="9" type="1">
+			<spritesheet frameH="24" frameW="25" numFrames="12">entities/monkey.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="1" damagePerHit="0" health="1" movement="basicSeek" priority="10004101" />
+		</monkey>
+		<monkey friendlyName="White Monkey" id="10" type="2">
+			<spritesheet frameH="24" frameW="25" numFrames="12">entities/monkey_white.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="0" health="2" movement="basicSeek" priority="10006103" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</monkey>
+		<monkey friendlyName="Green Monkey" id="312" type="3">
+			<spritesheet frameH="24" frameW="25" numFrames="12">entities/monkey_yellow.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="1" damagePerHit="0" health="1" movement="basicSeek" priority="10004103" />
+			<particle hit="particles/TEMP_particle_yellow.png" />
+		</monkey>
+		<monkey friendlyName="Magic Monkey" id="313" type="4">
+			<spritesheet frameH="24" frameW="25" numFrames="12">entities/monkey_magic.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="0" health="2" movement="basicSeek" priority="10002103" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</monkey>
+		<motherslime friendlyName="Mother Slime" levelEditor="False" type="1">
+			<spritesheet frameH="39" frameW="39" numFrames="8" xOff="-6" yOff="-6">entities/mother_slime.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="15" damagePerHit="4" health="2" movement="custom" priority="30402115" />
+			<particle hit="particles/TEMP_particle_green.png" />
+		</motherslime>
+		<mommy friendlyName="The Mommy" id="411" type="1">
+			<spritesheet frameH="45" frameW="40" heartYOff="-20" numFrames="16" xOff="-6" yOff="-17" zOff="20">entities/mommy.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.59" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.59" onFraction="0.19" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.19" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.69" />
+			<frame animType="tell" inAnim="2" inSheet="6" offFraction="0.69" onFraction="0.49" />
+			<frame animType="tell" inAnim="3" inSheet="7" offFraction="0.49" onFraction="0.19" />
+			<frame animType="tell" inAnim="4" inSheet="4" offFraction="0.19" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="15" damagePerHit="4" health="6" movement="custom" priority="30405215" />
+			<optionalStats massive="true" miniboss="True" />
+		</mommy>
+		<mummy id="321" type="1">
+			<spritesheet frameH="14" frameW="14" numFrames="14" xOff="5" yOff="8">entities/mummy.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.54" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.99" onFraction="0.84" />
+			<frame animType="normal" inAnim="3" inSheet="2" offFraction="0.84" onFraction="0.69" />
+			<frame animType="normal" inAnim="4" inSheet="3" offFraction="0.69" onFraction="0.54" />
+			<shadow yOff="-2">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="0" damagePerHit="2" health="1" movement="custom" priority="30201103" />
+		</mummy>
+        <mushroom friendlyName="Blue Mushroom" id="106" type="1">
+			<spritesheet frameH="24" frameW="25" numFrames="20" yOff="2">entities/mushroom.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.59" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.59" onFraction="0.24" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.24" onFraction="0.95" />
+			<frame animType="normal2" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.59" />
+			<frame animType="normal2" inAnim="2" inSheet="6" offFraction="0.59" onFraction="0.24" />
+			<frame animType="normal2" inAnim="3" inSheet="4" offFraction="0.24" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="7" offFraction="0.99" onFraction="0.74" />
+			<frame animType="tell" inAnim="2" inSheet="8" offFraction="0.74" onFraction="0.49" />
+			<frame animType="tell" inAnim="3" inSheet="9" offFraction="0.49" onFraction="0.24" />
+			<frame animType="tell" inAnim="4" inSheet="10" offFraction="0.24" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="10201402" />
+			<particle hit="particles/TEMP_particle_spore.png" />
+			<optionalStats bounceOnMovementFail="False" />
+		</mushroom>
+        <mushroom friendlyName="Purple Mushroom" id="107" type="2">
+			<spritesheet frameH="24" frameW="25" numFrames="20" yOff="2">entities/mushroom_super.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.59" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.59" onFraction="0.24" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.24" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.59" />
+			<frame animType="normal2" inAnim="2" inSheet="6" offFraction="0.59" onFraction="0.24" />
+			<frame animType="normal2" inAnim="3" inSheet="4" offFraction="0.24" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="7" offFraction="0.99" onFraction="0.74" />
+			<frame animType="tell" inAnim="2" inSheet="8" offFraction="0.74" onFraction="0.49" />
+			<frame animType="tell" inAnim="3" inSheet="9" offFraction="0.49" onFraction="0.24" />
+			<frame animType="tell" inAnim="4" inSheet="10" offFraction="0.24" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="3" coinsToDrop="3" damagePerHit="4" health="3" movement="custom" priority="10403303" />
+			<particle hit="particles/TEMP_particle_spore.png" />
+			<optionalStats bounceOnMovementFail="False" />
+		</mushroom>
+		<mushroom_light id="117" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="4" xOff="0" yOff="6">entities/mushroom_light.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<particle hit="particles/TEMP_particle_spore.png" />
+			<optionalStats bounceOnMovementFail="False" />
+		</mushroom_light>
+		<mushroom_exploding friendlyName="Exploding Mushroom" id="118" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="4" xOff="0" yOff="6">entities/mushroom_exploding.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="4" health="2" movement="custom" priority="199999999" />
+			<particle hit="particles/TEMP_particle_spore.png" />
+			<optionalStats bounceOnMovementFail="False" />
+		</mushroom_exploding>
+		<necrodancer friendlyName="The Necrodancer" levelEditor="False" type="1">
+			<spritesheet frameH="53" frameW="44" heartYOff="-25" numFrames="22" xOff="-10" yOff="-25" zOff="41">entities/necrodancer.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="blink" inAnim="2" inSheet="9" offFraction="0.69" onFraction="0.39" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="0" damagePerHit="3" health="6" movement="custom" priority="40309300" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+			<optionalStats boss="True" />
+		</necrodancer>
+		<necrodancer friendlyName="The Necrodancer" levelEditor="False" type="2">
+			<spritesheet frameH="53" frameW="44" heartYOff="-25" numFrames="22" xOff="-10" yOff="-25" zOff="41">entities/necrodancer.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.74" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.74" onFraction="0.49" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.49" onFraction="0.24" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.24" onFraction="0.99" />
+			<frame animType="blink" inAnim="2" inSheet="9" offFraction="0.74" onFraction="0.49" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="0" damagePerHit="3" health="6" movement="custom" priority="40309300" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+			<optionalStats boss="True" />
+		</necrodancer>
+		<nightmare friendlyName="Dark Nightmare" id="409" type="1">
+			<spritesheet frameH="42" frameW="58" heartYOff="-16" numFrames="10" xOff="-14" yOff="-12" zOff="24">entities/nightmare.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_nightmare.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="10" damagePerHit="4" health="3" movement="basicSeek" priority="30403210" />
+			<particle hit="particles/TEMP_particle_black.png" />
+			<optionalStats massive="True" miniboss="True" />
+		</nightmare>
+		<nightmare friendlyName="Blood Nightmare" id="410" type="2">
+			<spritesheet frameH="42" frameW="58" heartYOff="-16" numFrames="10" xOff="-14" yOff="-12" zOff="24">entities/nightmare2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.79" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.79" onFraction="0.59" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.59" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.19" />
+			<frame animType="normal" inAnim="5" inSheet="5" offFraction="0.19" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_nightmare.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="15" damagePerHit="5" health="5" movement="basicSeek" priority="30505215" />
+			<particle hit="particles/TEMP_particle_black.png" />
+			<optionalStats massive="True" miniboss="True" />
+		</nightmare>
+		<ogre id="412" type="1">
+			<spritesheet frameH="48" frameW="45" heartYOff="-21" numFrames="8" xOff="-11" yOff="-20" zOff="35">entities/ogre.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="3" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="2" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="15" damagePerHit="5" health="5" movement="custom" priority="30505115" />
+			<optionalStats massive="True" miniboss="True" />
+		</ogre>
+		<pawn levelEditor="False" type="1">
+			<spritesheet frameH="23" frameW="15" numFrames="10" xOff="6">entities/pawn.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="3" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="8" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="44000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats boss="True" />
+		</pawn>
+		<pawn friendlyName="Red Pawn" levelEditor="False" type="2">
+			<spritesheet frameH="23" frameW="15" numFrames="10" xOff="6">entities/pawn_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="4" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="3" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="8" coinsToDrop="3" damagePerHit="2" health="2" movement="custom" priority="44000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats boss="True" />
+		</pawn>
+		<pawnbroker levelEditor="False" type="1">
+			<spritesheet frameH="59" frameW="49" numFrames="8" xOff="-12" yOff="-20" zOff="20">entities/npc_pawnbroker.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="6" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</pawnbroker>
+		<pawnbroker levelEditor="False" type="2">
+			<spritesheet frameH="24" frameW="25" numFrames="12">entities/npc_pawnbroker_attack.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="6" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</pawnbroker>
+		<pixie id="314" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="8" xOff="0" yOff="-4">entities/pixie.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="2" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="3" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="4" health="1" movement="basicSeek" priority="10401102" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</pixie>
+		<queen levelEditor="False" type="1">
+			<spritesheet frameH="39" frameW="33" heartYOff="-19" numFrames="2" xOff="-4" yOff="-22" zOff="21">entities/queen.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="30" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="3" health="1" movement="custom" priority="48000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+		</queen>
+		<queen friendlyName="Red Queen" levelEditor="False" type="2">
+			<spritesheet frameH="39" frameW="33" heartYOff="-19" numFrames="2" xOff="-4" yOff="-22" zOff="21">entities/queen_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="30" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="3" health="2" movement="custom" priority="48000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+		</queen>
+		<rook levelEditor="False" type="1">
+			<spritesheet frameH="26" frameW="19" numFrames="6" xOff="5">entities/rook.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="3" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="47000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats boss="True" />
+		</rook>
+		<rook friendlyName="Red Rook" levelEditor="False" type="2">
+			<spritesheet frameH="26" frameW="19" numFrames="6" xOff="5">entities/rook_red.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="tell" inAnim="2" inSheet="3" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="3" damagePerHit="2" health="2" movement="custom" priority="47000000" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+			<optionalStats boss="True" />
+		</rook>
+		<sarcophagus id="315" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="2" xOff="0" yOff="7">entities/sarcophagus.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="8" coinsToDrop="5" damagePerHit="1" health="1" movement="custom" priority="10101805" />
+			<particle hit="particles/TEMP_particle_white.png" />
+			<optionalStats bounceOnMovementFail="False" />
+			<shadow yOff="2">entities/TEMP_shadow_large.png</shadow>
+		</sarcophagus>
+		<sarcophagus friendlyName="Yellow Sarcophagus" id="316" type="2">
+			<spritesheet frameH="24" frameW="24" numFrames="2" xOff="0" yOff="7">entities/sarcophagus2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="10" coinsToDrop="8" damagePerHit="1" health="2" movement="custom" priority="10102910" />
+			<particle hit="particles/TEMP_particle_yellow.png" />
+			<optionalStats bounceOnMovementFail="False" />
+			<shadow yOff="2">entities/TEMP_shadow_large.png</shadow>
+		</sarcophagus>
+		<sarcophagus friendlyName="Black Sarcophagus" id="317" type="3">
+			<spritesheet frameH="24" frameW="24" numFrames="2" xOff="0" yOff="7">entities/sarcophagus3.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="12" coinsToDrop="10" damagePerHit="1" health="3" movement="custom" priority="10103915" />
+			<particle hit="particles/TEMP_particle_black.png" />
+			<optionalStats bounceOnMovementFail="False" />
+			<shadow yOff="2">entities/TEMP_shadow_large.png</shadow>
+		</sarcophagus>
+		<shopkeeper id="600" type="1">
+			<spritesheet frameH="38" frameW="47" heartYOff="-10" numFrames="16" xOff="-12" yOff="-10" zOff="10">entities/shopkeeper.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="9" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shopkeeper>
+		<shopkeeper id="601" type="2">
+			<spritesheet frameH="38" frameW="47" heartYOff="-10" numFrames="16" xOff="-12" yOff="-10" zOff="10">entities/shopkeeper2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="8" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shopkeeper>
+		<shopkeeper id="602" type="3">
+			<spritesheet frameH="38" frameW="47" heartYOff="-10" numFrames="16" xOff="-12" yOff="-10" zOff="10">entities/shopkeeper3.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="8" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shopkeeper>
+		<shopkeeper id="603" type="4">
+			<spritesheet frameH="38" frameW="47" heartYOff="-10" numFrames="16" xOff="-12" yOff="-10" zOff="10">entities/shopkeeper4.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="1" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shopkeeper>
+		<shopkeeper friendlyName="Monstrous Shopkeeper" id="605" type="5">
+			<spritesheet frameH="38" frameW="47" heartYOff="-14" numFrames="16" xOff="-12" yOff="-14" zOff="14">entities/shopkeeper_monstrous.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="5" health="5" movement="custom" priority="109999998" />
+		</shopkeeper>
+		<shopkeeper_ghost friendlyName="Shopkeeper Ghost" id="604" levelEditor="False" type="1">
+			<spritesheet frameH="38" frameW="47" numFrames="16" xOff="-12" yOff="-14" zOff="14">entities/shopkeeper_ghost.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="5" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="6" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="7" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="8" offFraction="0.14" onFraction="0.99" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="10" health="1" movement="seekWithDiagonals" priority="109999999" />
+			<optionalStats bounceOnMovementFail="False" floating="True" ignoreWalls="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</shopkeeper_ghost>
+		<shovemonster id="212" type="1">
+			<spritesheet frameH="26" frameW="26" numFrames="8">entities/shovemonster.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="0" health="2" movement="basicSeek" priority="10002102" />
+			<particle hit="particles/TEMP_particle_purple.png" />
+		</shovemonster>
+		<shovemonster id="219" type="2">
+			<spritesheet frameH="26" frameW="26" numFrames="8">entities/shovemonster_gray.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="4" damagePerHit="0" health="3" movement="basicSeek" priority="10003102" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</shovemonster>
+		<shriner levelEditor="False" type="1">
+			<spritesheet frameH="20" frameW="39" numFrames="8" xOff="-7" yOff="5">entities/npc_shriner.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shriner>
+		<skeleton friendlyName="White Skeleton" id="3" type="1">
+			<spritesheet frameH="25" frameW="24" numFrames="16">entities/skeleton.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" />
+			<frame animType="tell" inAnim="2" inSheet="6" />
+			<frame animType="tell" inAnim="3" inSheet="7" />
+			<frame animType="tell" inAnim="4" inSheet="8" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="1" health="1" movement="custom" priority="10101202" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</skeleton>
+		<skeleton friendlyName="Yellow Skeleton" id="4" type="2">
+			<spritesheet frameH="25" frameW="24" numFrames="18">entities/skeleton_yellow.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" />
+			<frame animType="tell" inAnim="2" inSheet="6" />
+			<frame animType="tell" inAnim="3" inSheet="7" />
+			<frame animType="tell" inAnim="4" inSheet="8" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="3" damagePerHit="3" health="2" movement="custom" priority="10302203" />
+			<particle hit="particles/TEMP_particle_yellowgreen.png" />
+		</skeleton>
+		<skeleton friendlyName="Black Skeleton" id="5" type="3">
+			<spritesheet frameH="25" frameW="24" numFrames="18">entities/skeleton_black.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" />
+			<frame animType="tell" inAnim="2" inSheet="6" />
+			<frame animType="tell" inAnim="3" inSheet="7" />
+			<frame animType="tell" inAnim="4" inSheet="8" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="4" damagePerHit="4" health="3" movement="custom" priority="10403204" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</skeleton>
+        <skeletonknight friendlyName="White Skeleton Knight" id="202" type="1">
+			<spritesheet frameH="42" frameW="36" numFrames="8" xOff="-6" yOff="-20" zOff="25">entities/skeletonknight.png</spritesheet>
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="7" />
+			<frame animType="tell" inAnim="2" inSheet="8" />
+			<frame animType="tell" inAnim="3" inSheet="5" />
+			<frame animType="tell" inAnim="4" inSheet="6" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="10201102" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</skeletonknight>
+		<skeletonknight friendlyName="Yellow Skeleton Knight" id="203" type="2">
+			<spritesheet frameH="42" frameW="36" numFrames="8" xOff="-6" yOff="-20" zOff="25">entities/skeletonknight2.png</spritesheet>
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="7" />
+			<frame animType="tell" inAnim="2" inSheet="8" />
+			<frame animType="tell" inAnim="3" inSheet="5" />
+			<frame animType="tell" inAnim="4" inSheet="6" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="4" damagePerHit="4" health="2" movement="custom" priority="10402104" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_yellowgreen.png" />
+		</skeletonknight>
+		<skeletonknight friendlyName="Black Skeleton Knight" id="204" type="3">
+			<spritesheet frameH="42" frameW="36" numFrames="8" xOff="-6" yOff="-20" zOff="25">entities/skeletonknight3.png</spritesheet>
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.09" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="7" />
+			<frame animType="tell" inAnim="2" inSheet="8" />
+			<frame animType="tell" inAnim="3" inSheet="5" />
+			<frame animType="tell" inAnim="4" inSheet="6" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="6" damagePerHit="6" health="3" movement="custom" priority="10603106" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</skeletonknight>
+		<skeletonspearman levelEditor="False" type="1">
+			<spritesheet frameH="25" frameW="24" numFrames="16">entities/skeletonspearman.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" />
+			<frame animType="tell" inAnim="2" inSheet="6" />
+			<frame animType="tell" inAnim="3" inSheet="7" />
+			<frame animType="tell" inAnim="4" inSheet="8" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="4" damagePerHit="1" health="1" movement="custom" priority="10101204" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</skeletonspearman>
+        <skeletonmage friendlyName="White Skeleton Mage" id="103" type="1">
+			<spritesheet frameH="27" frameW="24" numFrames="14">entities/skeleton_mage_white.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="6" />
+			<frame animType="tell" inAnim="2" inSheet="7" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="10201202" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</skeletonmage>
+        <skeletonmage friendlyName="Yellow Skeleton Mage" id="104" type="2">
+			<spritesheet frameH="27" frameW="24" numFrames="14">entities/skeleton_mage_yellow.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="6" />
+			<frame animType="tell" inAnim="2" inSheet="7" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="4" damagePerHit="4" health="2" movement="custom" priority="10402204" />
+			<particle hit="particles/TEMP_particle_yellowgreen.png" />
+		</skeletonmage>
+        <skeletonmage friendlyName="Black Skeleton Mage" id="105" type="3">
+			<spritesheet frameH="27" frameW="24" numFrames="14">entities/skeleton_mage_black.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="5" offFraction="0.14" onFraction="0.99" />
+			<frame animType="tell" inAnim="1" inSheet="6" />
+			<frame animType="tell" inAnim="2" inSheet="7" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="6" damagePerHit="5" health="3" movement="custom" priority="10503206" />
+			<particle hit="particles/TEMP_particle_gray.png" />
+		</skeletonmage>
+		<skeletontank friendlyName="Skeleton Tank" levelEditor="False" type="1">
+			<spritesheet frameH="23" frameW="32" numFrames="16" xOff="-4" yOff="5">entities/skeletontank.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="2" health="1" movement="custom" priority="10101202" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</skeletontank>
+		<sleeping_goblin friendlyName="Goblin Sentry" id="301" type="1">
+			<spritesheet frameH="30" frameW="37" numFrames="12" xOff="-8">entities/goblin_sentry.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="1" damagePerHit="1" health="1" movement="custom" priority="10101201" />
+			<particle hit="particles/TEMP_particle_red.png" />
+		</sleeping_goblin>
+		<slime friendlyName="Green Slime" id="0" type="1">
+			<spritesheet frameH="26" frameW="26" numFrames="8">entities/slime_green.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="2" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="3" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="1" damagePerHit="100" health="1" movement="custom" priority="19901101" />
+			<particle hit="particles/TEMP_particle_green.png" />
+		</slime>
+		<slime friendlyName="Blue Slime" id="1" type="2">
+			<spritesheet frameH="25" frameW="26" numFrames="16" yOff="1">entities/slime_blue.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="2" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="3" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal2" inAnim="1" inSheet="8" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal2" inAnim="2" inSheet="5" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal2" inAnim="3" inSheet="6" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal2" inAnim="4" inSheet="7" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="2" health="2" movement="custom" priority="10202202" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+		</slime>
+		<slime friendlyName="Orange Slime" id="2" type="3">
+			<spritesheet frameH="26" frameW="26" numFrames="8">entities/slime_orange.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="2" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="3" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="1" health="1" movement="custom" priority="10101102" />
+			<particle hit="particles/TEMP_particle_orange.png" />
+		</slime>
+		<slime friendlyName="Ice Slime" id="201" type="4">
+			<spritesheet frameH="26" frameW="26" numFrames="8">entities/slime_ice.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="2" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="3" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="1" damagePerHit="3" health="1" movement="custom" priority="10301101" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</slime>
+		<slime friendlyName="Fire Slime" id="200" type="5">
+			<spritesheet frameH="26" frameW="26" numFrames="8">entities/slime_fire.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="4" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="2" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="3" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="1" damagePerHit="3" health="1" movement="custom" priority="10301101" />
+			<particle hit="particles/TEMP_particle_orange.png" />
+		</slime>
+		<spider id="318" type="1">
+			<spritesheet frameH="20" frameW="21" numFrames="10" xOff="1" yOff="-2">entities/spider.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="3" damagePerHit="2" health="1" movement="custom" priority="10401202" />
+			<particle hit="particles/TEMP_particle_orange.png" />
+			<optionalStats ignoreWalls="True" />
+		</spider>
+		<tarmonster id="113" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="10" yOff="2">entities/tarmonster.png</spritesheet>
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="3" health="1" movement="custom" priority="10304103" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<optionalStats bounceOnMovementFail="False" ignoreLiquids="True" />
+		</tarmonster>
+		<tentacle levelEditor="False" type="1">
+			<spritesheet frameH="55" frameW="41" heartXOff="-8" heartYOff="-3" numFrames="8" xOff="-7" yOff="-20" zOff="34">entities/coralriff_drums.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="40201202" />
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</tentacle>
+		<tentacle levelEditor="False" type="2">
+			<spritesheet frameH="58" frameW="36" heartXOff="-8" heartYOff="-3" numFrames="8" xOff="-8" yOff="-23" zOff="37">entities/coralriff_horns.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="40201202" />
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</tentacle>
+		<tentacle levelEditor="False" type="3">
+			<spritesheet frameH="56" frameW="45" heartXOff="-8" heartYOff="-2" numFrames="8" xOff="-15" yOff="-21" zOff="35">entities/coralriff_strings.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="40201202" />
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</tentacle>
+		<tentacle levelEditor="False" type="4">
+			<spritesheet frameH="55" frameW="26" heartXOff="-1" heartYOff="-3" numFrames="8" xOff="-3" yOff="-20" zOff="34">entities/coralriff_keytar.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="40201202" />
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</tentacle>
+		<tentacle levelEditor="False" type="5">
+			<spritesheet frameH="55" frameW="41" heartXOff="-8" heartYOff="-3" numFrames="8" xOff="-7" yOff="-20" zOff="34">entities/coralriff_drums2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="2" movement="custom" priority="40302202" />
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</tentacle>
+		<tentacle levelEditor="False" type="6">
+			<spritesheet frameH="58" frameW="36" heartXOff="-8" heartYOff="-3" numFrames="8" xOff="-8" yOff="-23" zOff="37">entities/coralriff_horns2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="2" movement="custom" priority="40302202" />
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</tentacle>
+		<tentacle levelEditor="False" type="7">
+			<spritesheet frameH="56" frameW="45" heartXOff="-8" heartYOff="-2" numFrames="8" xOff="-15" yOff="-21" zOff="35">entities/coralriff_strings2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="2" movement="custom" priority="40302202" />
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</tentacle>
+		<tentacle levelEditor="False" type="8">
+			<spritesheet frameH="55" frameW="26" heartXOff="-1" heartYOff="-3" numFrames="8" xOff="-3" yOff="-20" zOff="34">entities/coralriff_keytar2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="2" movement="custom" priority="40302202" />
+			<optionalStats boss="True" bounceOnMovementFail="False" floating="True" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+		</tentacle>
+		<tinyslime levelEditor="False" type="1">
+			<spritesheet frameH="13" frameW="13" numFrames="8" xOff="6" yOff="6">entities/tiny_slime.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="1" damagePerHit="1" health="1" movement="random" priority="30101401" />
+			<particle hit="particles/TEMP_particle_green.png" />
+		</tinyslime>
+		<trainer levelEditor="False" type="1">
+			<spritesheet frameH="28" frameW="25" numFrames="2" yOff="0">entities/codex.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="1" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.39" onFraction="0.09" />
+			<shadow xOff="-2" yOff="2">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</trainer>
+		<trainingsarcophagus levelEditor="False" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="2" xOff="0" yOff="7">entities/trainingsarcophagus.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" singleFrame="True" />
+			<stats beatsPerMove="8" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" priority="10101800" />
+			<particle hit="particles/TEMP_particle_white.png" />
+			<optionalStats bounceOnMovementFail="False" />
+			<shadow yOff="2">entities/TEMP_shadow_large.png</shadow>
+		</trainingsarcophagus>
+		<transmogrifier levelEditor="False" type="1">
+			<spritesheet frameH="27" frameW="26" numFrames="8" xOff="1" yOff="2">entities/npc_transmogrifier.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="5" movement="custom" priority="99999997" />
+			<optionalStats bounceOnMovementFail="False" />
+		</transmogrifier>
+		<trapchest friendlyName="Chest Mimic" id="14" type="1">
+			<spritesheet frameH="26" frameW="24" numFrames="10" yOff="6">entities/trapchest.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="5" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="2" health="1" movement="custom" priority="10201100" />
+			<optionalStats bounceOnMovementFail="False" />
+		</trapchest>
+		<trapchest friendlyName="Locked Chest Mimic" id="15" type="2">
+			<spritesheet frameH="26" frameW="24" numFrames="10" yOff="6">entities/trapchest_locked.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="5" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="3" health="1" movement="custom" priority="10301100" />
+			<optionalStats bounceOnMovementFail="False" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+		</trapchest>
+		<trapchest friendlyName="White Chest Mimic" type="3">
+			<spritesheet frameH="26" frameW="24" numFrames="10" yOff="6">entities/trapchest_white.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="3" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="normal" inAnim="4" inSheet="5" offFraction="0.09" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="3" health="1" movement="custom" priority="10301100" />
+			<optionalStats bounceOnMovementFail="False" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</trapchest>
+		<trapcauldron friendlyName="Fire Cauldron Mimic" id="215" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="6" yOff="6">entities/cauldron_coals_mimic.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="10201102" />
+			<optionalStats bounceOnMovementFail="False" />
+			<particle hit="particles/TEMP_particle_red.png" />
+		</trapcauldron>
+		<trapcauldron friendlyName="Ice Cauldron Mimic" id="216" type="2">
+			<spritesheet frameH="24" frameW="24" numFrames="6" yOff="6">entities/cauldron_ice_mimic.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="2" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="3" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="2" health="1" movement="custom" priority="10201102" />
+			<optionalStats bounceOnMovementFail="False" />
+			<particle hit="particles/TEMP_particle_blue.png" />
+		</trapcauldron>
+		<toad levelEditor="False" type="1">
+			<spritesheet frameH="25" frameW="24" numFrames="16">entities/toad.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="tell" inAnim="1" inSheet="5" />
+			<frame animType="tell" inAnim="2" inSheet="6" />
+			<frame animType="tell" inAnim="3" inSheet="7" />
+			<frame animType="tell" inAnim="4" inSheet="8" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="4" damagePerHit="3" health="1" movement="custom" priority="10301404" />
+			<particle hit="particles/TEMP_particle_green.png" />
+		</toad>
+		<troll levelEditor="False" type="1">
+			<spritesheet frameH="44" frameW="49" heartYOff="-17" numFrames="8" xOff="-13" yOff="-16" zOff="21">entities/trollolo.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="normal2" inAnim="1" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal2" inAnim="2" inSheet="4" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="4" damagePerHit="4" health="3" movement="custom" priority="20403204" />
+            <optionalStats massive="True" />
+			<particle hit="particles/TEMP_particle_green.png" />
+		</troll>
+		<undead_elf levelEditor="False" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="4" yOff="2">entities/undead_elf.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="0" damagePerHit="1" health="1" movement="basicSeek" priority="10101200" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</undead_elf>
+		<undead_santa levelEditor="False" type="1">
+			<spritesheet frameH="46" frameW="52" heartYOff="-23" numFrames="4" xOff="-14" yOff="-19" zOff="31">entities/undead_santa.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="100" damagePerHit="99" health="1" movement="custom" priority="39901299" />
+			<optionalStats massive="True" miniboss="True" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</undead_santa>
+		<warlock id="319" type="1">
+			<spritesheet frameH="31" frameW="26" numFrames="8">entities/warlock.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="2" damagePerHit="3" health="1" movement="basicSeek" priority="10401202" />
+			<particle hit="particles/TEMP_particle_red.png" />
+		</warlock>
+		<warlock friendlyName="Neon Warlock" id="320" type="2">
+			<spritesheet frameH="31" frameW="26" numFrames="8">entities/warlock_2.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="3" damagePerHit="4" health="2" movement="basicSeek" priority="10401302" />
+			<particle hit="particles/TEMP_particle_red.png" />
+		</warlock>
+		<weaponmaster levelEditor="False" type="1">
+			<spritesheet frameH="34" frameW="48" numFrames="18" xOff="-19" yOff="0">entities/weaponmaster.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow xOff="-2" yOff="2">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</weaponmaster>
+		<wight id="115" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="6">entities/wight.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="blink" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="2" health="1" movement="custom" priority="10201103" />
+			<optionalStats bounceOnMovementFail="False" floating="True" ignoreWalls="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</wight>
+		<wraith id="13" type="1">
+			<spritesheet frameH="24" frameW="24" numFrames="6">entities/wraith.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.99" onFraction="0.14" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.14" onFraction="0.99" />
+			<frame animType="blink" inAnim="2" inSheet="3" offFraction="0.99" onFraction="0.14" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="1" health="1" movement="custom" priority="10101102" />
+			<optionalStats bounceOnMovementFail="False" floating="True" />
+			<bouncer max="0" min="-2.5" power="1.5" steps="15" />
+			<tweens hit="slide" hitShadow="slide" move="slide" moveShadow="slide" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</wraith>
+        <yeti id="213" type="1">
+			<spritesheet frameH="40" frameW="68" heartYOff="-19" numFrames="8" xOff="-22" yOff="-15" zOff="27">entities/yeti.png</spritesheet>
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+			<stats beatsPerMove="4" coinsToDrop="3" damagePerHit="3" health="1" movement="basicSeek" priority="20301403" />
+			<optionalStats massive="True" />
+		</yeti>
+		<zombie id="12" type="1">
+			<spritesheet frameH="25" frameW="24" numFrames="48">entities/zombie.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<frame animType="blink" inAnim="2" inSheet="5" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="1" damagePerHit="2" health="1" movement="custom" priority="10201201" />
+		</zombie>
+		<zombie_snake friendlyName="Conga Line" levelEditor="False" type="1">
+			<spritesheet frameH="25" frameW="24" numFrames="144">entities/zombie_snake.png</spritesheet>
+			<frame animType="normal" inAnim="1" inSheet="1" offFraction="0.09" onFraction="0.99" />
+			<frame animType="normal" inAnim="2" inSheet="2" offFraction="0.99" onFraction="0.69" />
+			<frame animType="normal" inAnim="3" inSheet="3" offFraction="0.69" onFraction="0.39" />
+			<frame animType="normal" inAnim="4" inSheet="4" offFraction="0.39" onFraction="0.09" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="2" coinsToDrop="1" damagePerHit="2" health="1" movement="custom" priority="99100000" />
+			<optionalStats boss="True" />
+		</zombie_snake>
+	</enemies>
+</necrodancer>
